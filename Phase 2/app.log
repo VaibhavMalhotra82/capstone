@@ -1,0 +1,18 @@
+2026-04-13 18:09:15,170 UTC - INFO - ChatBot initialized successfully.
+2026-04-13 18:09:19,532 UTC - INFO - User query: hi
+2026-04-13 18:09:19,532 UTC - WARNING - Unrecognized user query.
+2026-04-13 18:11:42,898 UTC - INFO - User query: show me balance in my account
+2026-04-13 18:11:42,898 UTC - WARNING - Unrecognized user query.
+2026-04-13 18:11:53,210 UTC - INFO - User query: what is your name?
+2026-04-13 18:11:53,210 UTC - WARNING - Unrecognized user query.
+2026-04-13 18:11:57,762 UTC - INFO - User query: exit
+2026-04-13 18:11:57,762 UTC - INFO - User requested to exit.
+2026-04-13 18:16:06,746 UTC - INFO - ChatBot initialized successfully.
+2026-04-13 18:16:15,805 UTC - INFO - User query: show me the account balance
+2026-04-13 18:16:15,806 UTC - INFO - Processing account balance query.
+2026-04-13 18:16:52,255 UTC - INFO - User query: what are the current interest rates?
+2026-04-13 18:16:52,255 UTC - INFO - Processing interest rates query.
+2026-04-13 18:17:19,496 UTC - INFO - User query: what are the available loan options?
+2026-04-13 18:17:19,496 UTC - INFO - Processing loan options query.
+2026-04-13 18:17:22,648 UTC - INFO - User query: exit
+2026-04-13 18:17:22,649 UTC - INFO - User requested to exit.
