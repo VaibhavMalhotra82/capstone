@@ -1,0 +1,42 @@
+2026-04-14 18:25:13,587 UTC - INFO - User query: I need to talk o your supervisor
+2026-04-14 18:25:16,022 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-14 18:25:16,032 UTC - INFO - Intent classification result: {'intent': 'human_handoff', 'confidence_score': 0.95}
+2026-04-14 18:25:18,166 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-14 18:25:18,169 UTC - INFO - Advisory engine response: advice='Thank you for reaching out to XYZ Bank. I acknowledge your request for assistance. For personalized support, please contact our Customer Support team at 1800-XYZ-1234 or visit your nearest branch. They will be happy to assist you with your concerns.'
+2026-04-14 18:25:18,175 UTC - INFO - Bot response: Thank you for reaching out to XYZ Bank. I acknowledge your request for assistance. For personalized support, please contact our Customer Support team at 1800-XYZ-1234 or visit your nearest branch. They will be happy to assist you with your concerns.
+2026-04-14 18:27:16,523 UTC - INFO - User query: exit
+2026-04-14 18:27:16,523 UTC - INFO - User requested to exit.
+2026-04-14 18:27:31,756 UTC - INFO - User query: I need to talk to your supervisor
+2026-04-14 18:27:33,932 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-14 18:27:33,940 UTC - INFO - Intent classification result: {'intent': 'human_handoff', 'confidence_score': 0.95}
+2026-04-14 18:27:35,992 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-14 18:27:35,995 UTC - INFO - Advisory engine response: advice='Thank you for reaching out! For any immediate assistance, I recommend contacting our customer support at 1800-XYZ-BANK or visiting your nearest bank branch. They will be happy to assist you with any urgent matter.'
+2026-04-14 18:27:35,995 UTC - INFO - Bot response: Thank you for reaching out! For any immediate assistance, I recommend contacting our customer support at 1800-XYZ-BANK or visiting your nearest bank branch. They will be happy to assist you with any urgent matter.
+2026-04-14 18:27:44,075 UTC - INFO - User query: exit
+2026-04-14 18:27:44,076 UTC - INFO - User requested to exit.
+2026-04-14 18:30:17,164 UTC - INFO - User query: I need to talk to your supervisor
+2026-04-14 18:30:19,756 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-14 18:30:19,768 UTC - INFO - Intent classification result: {'intent': 'human_handoff', 'confidence_score': 0.97}
+2026-04-14 18:30:21,280 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-14 18:30:21,284 UTC - INFO - Advisory engine response: advice='Thank you for contacting XYZ Bank! How can I assist you with your information needs today?'
+2026-04-14 18:30:21,284 UTC - INFO - Bot response: Thank you for contacting XYZ Bank! How can I assist you with your information needs today?
+2026-04-14 18:30:34,195 UTC - INFO - User query: exit
+2026-04-14 18:30:34,195 UTC - INFO - User requested to exit.
+2026-04-14 18:32:32,779 UTC - INFO - User query: personal loan interest rate
+2026-04-14 18:32:35,495 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-14 18:32:35,511 UTC - INFO - Intent classification result: {'intent': 'loan_inquiry', 'confidence_score': 0.95}
+2026-04-14 18:32:39,016 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-14 18:32:39,019 UTC - INFO - Advisory engine response: advice="Welcome to XYZ Bank! I'm here to assist you. If you're inquiring about loans, I can provide you with general information on our loan products, current interest rates, and the typical documentation required. I also recommend using our 'Loan Calculator' on the website for a better assessment of your potential loan options. If you need more specific details or personalized assistance, feel free to contact our customer support team. They will be more than happy to help you out!\n\n_Disclaimer: This information is for educational purposes only._"
+2026-04-14 18:32:39,020 UTC - INFO - Bot response: Welcome to XYZ Bank! I'm here to assist you. If you're inquiring about loans, I can provide you with general information on our loan products, current interest rates, and the typical documentation required. I also recommend using our 'Loan Calculator' on the website for a better assessment of your potential loan options. If you need more specific details or personalized assistance, feel free to contact our customer support team. They will be more than happy to help you out!
+
+_Disclaimer: This information is for educational purposes only._
+2026-04-14 18:33:36,891 UTC - INFO - User query: exit
+2026-04-14 18:33:36,891 UTC - INFO - User requested to exit.
+2026-04-14 18:58:55,898 UTC - INFO - User query: what is the current interest rate on home loans?
+2026-04-14 18:58:58,238 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-14 18:58:58,248 UTC - INFO - Intent classification result: {'intent': 'loan_inquiry', 'confidence_score': 0.95}
+2026-04-14 18:59:01,191 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-14 18:59:01,192 UTC - INFO - Advisory engine response: advice="Thank you for reaching out to XYZ Bank! If you're interested in a loan, I can provide some general information. We offer various loan products including personal loans, home loans, and auto loans. The interest rates vary based on the loan type, typically ranging from 8% to 15% per annum. For applications, you'll generally need to submit documents like proof of identity, income statements, and property details if applicable. I recommend checking out our 'Loan Calculator' on the website for an estimate tailored to your needs. If you have more questions or need assistance with the application process, feel free to reach out!"
+2026-04-14 18:59:01,192 UTC - INFO - Bot response: Thank you for reaching out to XYZ Bank! If you're interested in a loan, I can provide some general information. We offer various loan products including personal loans, home loans, and auto loans. The interest rates vary based on the loan type, typically ranging from 8% to 15% per annum. For applications, you'll generally need to submit documents like proof of identity, income statements, and property details if applicable. I recommend checking out our 'Loan Calculator' on the website for an estimate tailored to your needs. If you have more questions or need assistance with the application process, feel free to reach out!
+2026-04-14 18:59:12,706 UTC - INFO - User query: exit
+2026-04-14 18:59:12,706 UTC - INFO - User requested to exit.

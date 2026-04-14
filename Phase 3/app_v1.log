@@ -1,0 +1,66 @@
+2026-04-14 17:42:58,808 UTC - INFO - ChatBot initialized successfully.
+2026-04-14 17:43:17,868 UTC - INFO - User query: transfer 5000 rupees from my account
+2026-04-14 17:43:21,646 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-14 17:43:21,654 UTC - INFO - Intent classification result: {'intent': 'transaction_help', 'confidence_score': 0.97}
+2026-04-14 17:43:24,760 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-14 17:43:24,767 UTC - INFO - Advisory engine response: advice="Thank you for reaching out to XYZ Bank! I'm here to assist you with your banking needs. Please note that I am an AI advisor and I cannot move money or assist with transactions directly. However, I can guide you on how to proceed. \n\nTo make a payment, please navigate to the 'Payments' tab in our app. If you have any urgent payment issues, I recommend contacting our Customer Support for immediate assistance.\n\nIf there's anything else you need help with, feel free to ask! \n\n_Disclaimer: This information is for educational purposes only._"
+2026-04-14 17:43:24,768 UTC - INFO - Bot response: Thank you for reaching out to XYZ Bank! I'm here to assist you with your banking needs. Please note that I am an AI advisor and I cannot move money or assist with transactions directly. However, I can guide you on how to proceed. 
+
+To make a payment, please navigate to the 'Payments' tab in our app. If you have any urgent payment issues, I recommend contacting our Customer Support for immediate assistance.
+
+If there's anything else you need help with, feel free to ask! 
+2026-04-14 17:44:38,109 UTC - INFO - User query: exit
+2026-04-14 17:44:38,109 UTC - INFO - User requested to exit.
+2026-04-14 18:03:41,798 UTC - INFO - personal loan interest rates
+2026-04-14 18:03:44,030 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-14 18:03:44,556 UTC - INFO - {'intent': 'loan_inquiry', 'confidence_score': 0.95}
+2026-04-14 18:03:47,328 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-14 18:03:47,331 UTC - INFO - advice="Welcome to XYZ Bank! I'm here to assist you with your loan inquiries. We offer various loan products that may suit your needs. Generally, you can expect competitive interest rates and will need to provide documentation such as identity proof, income proof, and other relevant financial details. I recommend using our 'Loan Calculator' on our website to estimate monthly payments and compare loan options. If you have specific questions or need assistance with the application process, feel free to ask! _Disclaimer: This information is for educational purposes only._"
+2026-04-14 18:03:47,331 UTC - INFO - Welcome to XYZ Bank! I'm here to assist you with your loan inquiries. We offer various loan products that may suit your needs. Generally, you can expect competitive interest rates and will need to provide documentation such as identity proof, income proof, and other relevant financial details. I recommend using our 'Loan Calculator' on our website to estimate monthly payments and compare loan options. If you have specific questions or need assistance with the application process, feel free to ask! _Disclaimer: This information is for educational purposes only._
+2026-04-14 18:04:12,132 UTC - INFO - documents required for personal loan
+2026-04-14 18:04:14,377 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-14 18:04:14,380 UTC - INFO - {'intent': 'loan_inquiry', 'confidence_score': 0.95}
+2026-04-14 18:04:16,751 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-14 18:04:16,753 UTC - INFO - advice="Welcome to XYZ Bank! How can I assist you with your loan inquiry today? For general information regarding loan products, including interest rates and required documents, feel free to ask. Also, I recommend using the 'Loan Calculator' available on our website for personalized estimates.  \n_Disclaimer: This information is for educational purposes only._"
+2026-04-14 18:04:16,754 UTC - INFO - Welcome to XYZ Bank! How can I assist you with your loan inquiry today? For general information regarding loan products, including interest rates and required documents, feel free to ask. Also, I recommend using the 'Loan Calculator' available on our website for personalized estimates.  
+2026-04-14 18:04:19,324 UTC - INFO - exit
+2026-04-14 18:04:19,324 UTC - INFO - exit
+2026-04-14 18:07:41,100 UTC - INFO - exit
+2026-04-14 18:09:29,580 UTC - INFO - User query: exit
+2026-04-14 18:09:29,580 UTC - INFO - User requested to exit.
+2026-04-14 18:10:00,532 UTC - INFO - User query: transfer 5000 rupees from my account
+2026-04-14 18:10:03,118 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-14 18:10:03,126 UTC - INFO - Intent classification result: {'intent': 'transaction_help', 'confidence_score': 0.97}
+2026-04-14 18:10:06,415 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-14 18:10:06,421 UTC - INFO - Advisory engine response: advice="Thank you for contacting XYZ Bank! While I'm here to provide information and guidance, I cannot perform any transactions for you. If you need help with a specific transaction, here�s a quick how-to: to pay a bill, navigate to the 'Payments' tab in our app. If you encounter urgent issues, please reach out to our Customer Support for immediate assistance. Let me know if there's anything else I can assist you with! _Disclaimer: This information is for educational purposes only._"
+2026-04-14 18:10:06,421 UTC - INFO - Bot response: Thank you for contacting XYZ Bank! While I'm here to provide information and guidance, I cannot perform any transactions for you. If you need help with a specific transaction, here�s a quick how-to: to pay a bill, navigate to the 'Payments' tab in our app. If you encounter urgent issues, please reach out to our Customer Support for immediate assistance. Let me know if there's anything else I can assist you with! _Disclaimer: This information is for educational purposes only._
+2026-04-14 18:10:12,996 UTC - INFO - User query: what is the current interest rate on home loans?
+2026-04-14 18:10:16,371 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-14 18:10:16,373 UTC - INFO - Intent classification result: {'intent': 'loan_inquiry', 'confidence_score': 0.97}
+2026-04-14 18:10:18,404 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-14 18:10:18,407 UTC - INFO - Advisory engine response: advice='Welcome to XYZ Bank! How may I assist you with your loan inquiry today? I can provide general information about our loan products, including interest rates and required documents. You might also find our Loan Calculator on the website helpful for estimating your loan terms.'
+2026-04-14 18:10:18,407 UTC - INFO - Bot response: Welcome to XYZ Bank! How may I assist you with your loan inquiry today? I can provide general information about our loan products, including interest rates and required documents. You might also find our Loan Calculator on the website helpful for estimating your loan terms.
+2026-04-14 18:10:38,620 UTC - INFO - User query: tell me about university of california
+2026-04-14 18:10:43,561 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-14 18:10:43,746 UTC - INFO - Intent classification result: {'intent': 'general_faq', 'confidence_score': 0.85}
+2026-04-14 18:10:45,337 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-14 18:10:45,341 UTC - INFO - Advisory engine response: advice='Welcome to XYZ Bank! How can I assist you with your information needs today? If you have a specific question, feel free to ask!'
+2026-04-14 18:10:45,342 UTC - INFO - Bot response: Welcome to XYZ Bank! How can I assist you with your information needs today? If you have a specific question, feel free to ask!
+2026-04-14 18:11:03,108 UTC - INFO - User query: exit
+2026-04-14 18:11:03,108 UTC - INFO - User requested to exit.
+2026-04-14 18:16:37,532 UTC - INFO - User query: what are the annual charges for silver credit card?
+2026-04-14 18:16:40,097 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-14 18:16:40,106 UTC - INFO - Intent classification result: {'intent': 'general_faq', 'confidence_score': 0.92}
+2026-04-14 18:16:41,896 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-14 18:16:41,899 UTC - INFO - Advisory engine response: advice='Welcome to XYZ Bank! How can I assist you with your information needs today? If you have questions about branch hours, locations, or policies, feel free to ask!'
+2026-04-14 18:16:41,899 UTC - INFO - Bot response: Welcome to XYZ Bank! How can I assist you with your information needs today? If you have questions about branch hours, locations, or policies, feel free to ask!
+2026-04-14 18:16:48,828 UTC - INFO - User query: exit
+2026-04-14 18:16:48,828 UTC - INFO - User requested to exit.
+2026-04-14 18:23:34,867 UTC - INFO - User query: I need to talk to your supervisor
+2026-04-14 18:23:37,474 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-14 18:23:37,485 UTC - INFO - Intent classification result: {'intent': 'human_handoff', 'confidence_score': 0.95}
+2026-04-14 18:23:40,089 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-14 18:23:40,092 UTC - INFO - Advisory engine response: advice="Welcome to XYZ Bank! How can I assist you with your information needs today? If you're looking for specific account information or transaction help, please log in to our secure portal or check your mobile app for the most accurate details. If you need assistance with loans or general inquiries, feel free to ask!"
+2026-04-14 18:23:40,092 UTC - INFO - Bot response: Welcome to XYZ Bank! How can I assist you with your information needs today? If you're looking for specific account information or transaction help, please log in to our secure portal or check your mobile app for the most accurate details. If you need assistance with loans or general inquiries, feel free to ask!
+2026-04-14 18:23:46,092 UTC - INFO - User query: exit
+2026-04-14 18:23:46,092 UTC - INFO - User requested to exit.
