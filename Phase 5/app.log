@@ -1,0 +1,475 @@
+2026-04-15 14:38:03,535 UTC - INFO - User query: what is the eligibility criteria for silver credit card?
+2026-04-15 14:38:06,235 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 14:38:06,255 UTC - INFO - Intent classification result: {'intent': 'general_faq', 'confidence_score': 0.92}
+2026-04-15 14:38:08,249 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-15 14:38:09,246 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-15 14:38:12,814 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 14:38:12,823 UTC - INFO - Advisory engine response: advice='The eligibility criteria for a Silver Credit Card typically includes: \n1. Age: Minimum age of 21 years and maximum age of 65 years.\n2. Income: A steady source of income, with a minimum annual income requirement (varies by bank).\n3. Credit History: A good credit score is generally required, usually above 650.\n4. Identification: Valid identity and address proof.\nIt is advisable to check with XYZ Bank for the specific requirements and any additional criteria that may apply.'
+2026-04-15 14:38:12,826 UTC - INFO - Bot response: The eligibility criteria for a Silver Credit Card typically includes: 
+1. Age: Minimum age of 21 years and maximum age of 65 years.
+2. Income: A steady source of income, with a minimum annual income requirement (varies by bank).
+3. Credit History: A good credit score is generally required, usually above 650.
+4. Identification: Valid identity and address proof.
+It is advisable to check with XYZ Bank for the specific requirements and any additional criteria that may apply.
+2026-04-15 14:38:28,850 UTC - INFO - User query: what is the current interest rate on home loans?
+2026-04-15 14:38:30,117 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 14:38:30,120 UTC - INFO - Intent classification result: {'intent': 'loan_inquiry', 'confidence_score': 0.97}
+2026-04-15 14:39:58,542 UTC - INFO - User query: what is the current interest rate on home loans?
+2026-04-15 14:40:00,672 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 14:40:00,681 UTC - INFO - Intent classification result: {'intent': 'loan_inquiry', 'confidence_score': 0.97}
+2026-04-15 14:40:01,965 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-15 14:40:03,049 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-15 14:40:05,643 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 14:40:05,646 UTC - INFO - Advisory engine response: advice="The current interest rates on home loans can vary based on several factors such as the type of loan, tenure, and the bank's policies. It is advisable to check our website or contact customer service for the latest rates, as they may change frequently. You can also use the 'Loan Calculator' available on our website to estimate your monthly payments and get an idea of the potential costs."
+2026-04-15 14:40:05,646 UTC - INFO - Bot response: The current interest rates on home loans can vary based on several factors such as the type of loan, tenure, and the bank's policies. It is advisable to check our website or contact customer service for the latest rates, as they may change frequently. You can also use the 'Loan Calculator' available on our website to estimate your monthly payments and get an idea of the potential costs.
+2026-04-15 14:41:29,633 UTC - INFO - User query: home loan
+2026-04-15 14:41:30,999 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 14:41:31,001 UTC - INFO - Intent classification result: {'intent': 'loan_inquiry', 'confidence_score': 0.95}
+2026-04-15 14:41:32,640 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-15 14:41:33,467 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-15 14:41:35,499 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 14:41:35,501 UTC - INFO - Advisory engine response: advice="For a home loan inquiry, we offer a variety of products with competitive interest rates. Typically, you will need documents like proof of income, identity verification, and property details. I recommend using the 'Loan Calculator' available on our website to estimate your monthly payments and interest."
+2026-04-15 14:41:35,501 UTC - INFO - Bot response: For a home loan inquiry, we offer a variety of products with competitive interest rates. Typically, you will need documents like proof of income, identity verification, and property details. I recommend using the 'Loan Calculator' available on our website to estimate your monthly payments and interest.
+2026-04-15 14:41:54,458 UTC - INFO - User query: exit
+2026-04-15 14:41:54,459 UTC - INFO - User requested to exit.
+2026-04-15 14:42:30,596 UTC - INFO - User query: what is the current interest rate on home loans?
+2026-04-15 14:42:31,867 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 14:42:31,876 UTC - INFO - Intent classification result: {'intent': 'loan_inquiry', 'confidence_score': 0.95}
+2026-04-15 14:42:33,285 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-15 14:42:35,706 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 14:42:35,709 UTC - INFO - Advisory engine response: advice="The current interest rate on home loans can vary based on several factors such as loan amount, tenure, and the applicant's credit history. Typically, home loan interest rates range from 7% to 9% per annum. It's advisable to check the latest rates on the XYZ Bank website or use the 'Loan Calculator' available there for a more tailored estimation. Additionally, don't forget to consider any processing fees or charges that may apply."
+2026-04-15 14:42:35,710 UTC - INFO - Bot response: The current interest rate on home loans can vary based on several factors such as loan amount, tenure, and the applicant's credit history. Typically, home loan interest rates range from 7% to 9% per annum. It's advisable to check the latest rates on the XYZ Bank website or use the 'Loan Calculator' available there for a more tailored estimation. Additionally, don't forget to consider any processing fees or charges that may apply.
+2026-04-15 14:44:04,874 UTC - INFO - User query: home loan
+2026-04-15 14:44:06,356 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 14:44:06,359 UTC - INFO - Intent classification result: {'intent': 'loan_inquiry', 'confidence_score': 0.95}
+2026-04-15 14:44:07,299 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-15 14:44:09,396 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 14:44:09,399 UTC - INFO - Advisory engine response: advice="If you're interested in a home loan, XYZ Bank offers competitive interest rates and a straightforward application process. Typically, you'll need to provide documents like proof of income, property documents, and identification. To estimate your potential monthly payments, I recommend using the 'Loan Calculator' available on our website."
+2026-04-15 14:44:09,399 UTC - INFO - Bot response: If you're interested in a home loan, XYZ Bank offers competitive interest rates and a straightforward application process. Typically, you'll need to provide documents like proof of income, property documents, and identification. To estimate your potential monthly payments, I recommend using the 'Loan Calculator' available on our website.
+2026-04-15 14:44:33,730 UTC - INFO - User query: home loan interest rate
+2026-04-15 14:44:35,115 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 14:44:35,118 UTC - INFO - Intent classification result: {'intent': 'loan_inquiry', 'confidence_score': 0.95}
+2026-04-15 14:44:36,327 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-15 14:44:38,980 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 14:44:38,983 UTC - INFO - Advisory engine response: advice="To find the current home loan interest rates at XYZ Bank, please visit our website or contact our loan department. Typically, interest rates may vary based on the loan amount, tenure, and applicant's credit profile. You will also need to provide documentation such as proof of income, credit history, and property documents. Additionally, utilize the Loan Calculator on our website for an estimate of your monthly payments based on the interest rate you may qualify for."
+2026-04-15 14:44:38,983 UTC - INFO - Bot response: To find the current home loan interest rates at XYZ Bank, please visit our website or contact our loan department. Typically, interest rates may vary based on the loan amount, tenure, and applicant's credit profile. You will also need to provide documentation such as proof of income, credit history, and property documents. Additionally, utilize the Loan Calculator on our website for an estimate of your monthly payments based on the interest rate you may qualify for.
+2026-04-15 14:47:45,394 UTC - INFO - User query: exit
+2026-04-15 14:47:45,394 UTC - INFO - User requested to exit.
+2026-04-16 02:22:38,912 UTC - INFO - User query: home loan interest rates
+2026-04-16 02:22:38,914 UTC - INFO - Intent classification result: <coroutine object categorize_intent at 0x000001D8A7835700>
+2026-04-16 02:23:49,260 UTC - INFO - User query: home loan interest rate
+2026-04-16 02:23:51,575 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-16 02:23:51,596 UTC - INFO - Intent classification result: {'intent': 'loan_inquiry', 'confidence_score': 0.95}
+2026-04-16 02:23:53,711 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-16 02:23:58,641 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-16 02:23:58,643 UTC - INFO - Advisory engine response: advice="At XYZ Bank, home loan interest rates can vary based on factors such as the type of loan and the applicant's credit profile. As of now, the average interest rate for a home loan starts around 7.0% per annum. Additionally, you may need to provide documents such as proof of identity, income details, and property documents. I recommend using our 'Loan Calculator' available on the website to estimate your monthly payments and to explore various options. If you have specific inquiries or need personalized assistance, feel free to reach out to our loan specialists."
+2026-04-16 02:23:58,643 UTC - INFO - Bot response: At XYZ Bank, home loan interest rates can vary based on factors such as the type of loan and the applicant's credit profile. As of now, the average interest rate for a home loan starts around 7.0% per annum. Additionally, you may need to provide documents such as proof of identity, income details, and property documents. I recommend using our 'Loan Calculator' available on the website to estimate your monthly payments and to explore various options. If you have specific inquiries or need personalized assistance, feel free to reach out to our loan specialists.
+2026-04-16 02:25:28,818 UTC - INFO - User query: exit
+2026-04-16 02:25:28,819 UTC - INFO - User requested to exit.
+2026-04-16 02:25:44,772 UTC - INFO - User query: home loan interest rate
+2026-04-16 02:25:46,780 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-16 02:25:46,790 UTC - INFO - Intent classification result: {'intent': 'loan_inquiry', 'confidence_score': 0.95}
+2026-04-16 02:25:48,768 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-16 02:25:51,600 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-16 02:25:51,602 UTC - INFO - Advisory engine response: advice="For our home loan interest rates, they can vary based on factors such as the loan amount, tenure, and market conditions. I recommend visiting the XYZ Bank website to check the most current rates and use the 'Loan Calculator' for specific calculations. Also, ensure you have documents like proof of identity, income, and property details ready as they are typically needed for the loan application."
+2026-04-16 02:25:51,602 UTC - INFO - Bot response: For our home loan interest rates, they can vary based on factors such as the loan amount, tenure, and market conditions. I recommend visiting the XYZ Bank website to check the most current rates and use the 'Loan Calculator' for specific calculations. Also, ensure you have documents like proof of identity, income, and property details ready as they are typically needed for the loan application.
+2026-04-16 02:26:58,508 UTC - INFO - User query: exit
+2026-04-16 02:26:58,508 UTC - INFO - User requested to exit.
+2026-04-16 02:36:24,699 UTC - INFO - User query: home loan interest rate
+2026-04-16 02:36:26,546 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-16 02:36:26,556 UTC - INFO - Intent classification result: {'intent': 'loan_inquiry', 'confidence_score': 0.95}
+2026-04-16 02:36:27,772 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-16 02:36:27,776 UTC - INFO - Retrieved chunk from rag_data/loan.pdf (page 0):
+
+2026-04-16 02:36:27,776 UTC - INFO - Retrieved chunk from rag_data/loan.pdf (page 0):
+
+2026-04-16 02:36:27,776 UTC - INFO - Retrieved chunk from rag_data/loan.pdf (page 0):
+
+2026-04-16 02:36:27,776 UTC - INFO - Retrieved chunk from rag_data/loan.pdf (page 0):
+
+2026-04-16 02:36:30,198 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-16 02:36:30,201 UTC - INFO - Advisory engine response: advice='The indicative interest rates for home loans currently range from 8.40% to 9.25% per annum, which are linked to the EBLR/Repo rate. For detailed inquiries, I encourage you to utilize the Loan Calculator available on our website to better understand your potential loan repayments based on these rates.'
+2026-04-16 02:36:30,201 UTC - INFO - Bot response: The indicative interest rates for home loans currently range from 8.40% to 9.25% per annum, which are linked to the EBLR/Repo rate. For detailed inquiries, I encourage you to utilize the Loan Calculator available on our website to better understand your potential loan repayments based on these rates.
+2026-04-16 02:36:39,907 UTC - INFO - User query: exit
+2026-04-16 02:36:39,908 UTC - INFO - User requested to exit.
+2026-04-16 02:42:28,659 UTC - INFO - User query: what is the current interest rate on home loans?
+2026-04-16 02:42:30,243 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-16 02:42:30,264 UTC - INFO - Intent classification result: {'intent': 'loan_inquiry', 'confidence_score': 0.97}
+2026-04-16 02:42:32,247 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-16 02:42:32,263 UTC - INFO - Retrieved chunk from rag_data/loan.pdf (page 0):
+2026-04-16 02:42:32,263 UTC - INFO - Retrieved chunk from rag_data/loan.pdf (page 0):
+2026-04-16 02:42:32,263 UTC - INFO - Retrieved chunk from rag_data/loan.pdf (page 0):
+2026-04-16 02:42:32,263 UTC - INFO - Retrieved chunk from rag_data/loan.pdf (page 0):
+2026-04-16 02:42:34,285 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-16 02:42:34,289 UTC - INFO - Advisory engine response: advice='The current indicative interest rates for home loans at XYZ Bank range from 8.40% to 9.25% per annum. These rates are linked to the EBLR/Repo. For more personalized information, you may want to check the "Loan Calculator" on our website.'
+2026-04-16 02:44:00,131 UTC - INFO - User query: what is the current interest rate on home loans?
+2026-04-16 02:44:01,641 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-16 02:44:01,652 UTC - INFO - Intent classification result: {'intent': 'loan_inquiry', 'confidence_score': 0.96}
+2026-04-16 02:44:02,888 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-16 02:44:02,892 UTC - INFO - Retrieved chunk from rag_data/loan.pdf (page 0):
+2026-04-16 02:44:02,892 UTC - INFO - Retrieved chunk from rag_data/loan.pdf (page 0):
+2026-04-16 02:44:02,892 UTC - INFO - Retrieved chunk from rag_data/loan.pdf (page 0):
+2026-04-16 02:44:02,892 UTC - INFO - Retrieved chunk from rag_data/loan.pdf (page 0):
+2026-04-16 02:44:05,594 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-16 02:44:05,597 UTC - INFO - Advisory engine response: advice="The current indicative interest rates for home loans are between 8.40% to 9.25% per annum, linked to EBLR or Repo rate. For precise rates, it's advisable to check with the bank directly or use our Loan Calculator on the website."
+2026-04-16 02:44:05,597 UTC - INFO - Bot response: The current indicative interest rates for home loans are between 8.40% to 9.25% per annum, linked to EBLR or Repo rate. For precise rates, it's advisable to check with the bank directly or use our Loan Calculator on the website.
+
+_Disclaimer: This information is for educational purposes only._
+2026-04-16 02:44:40,010 UTC - INFO - User query: what are the bank working hours?
+2026-04-16 02:44:42,091 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-16 02:44:42,095 UTC - INFO - Intent classification result: {'intent': 'general_faq', 'confidence_score': 0.95}
+2026-04-16 02:44:43,150 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-16 02:44:43,154 UTC - INFO - Retrieved chunk from rag_data/faqs.pdf (page 0):
+2026-04-16 02:44:43,154 UTC - INFO - Retrieved chunk from rag_data/faqs.pdf (page 0):
+2026-04-16 02:44:43,154 UTC - INFO - Retrieved chunk from rag_data/faqs.pdf (page 0):
+2026-04-16 02:44:46,016 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-16 02:44:46,018 UTC - INFO - Advisory engine response: advice='The branch operational hours for XYZ Bank are as follows: \n- Weekdays: 9:30 AM to 4:00 PM (Public Dealing) \n- Saturdays: 9:30 AM to 1:00 PM (Closed on 2nd and 4th Saturdays) \n- Sundays: Closed. \n\nDigital Banking is available 24/7/365 via the App and Net Banking.'
+2026-04-16 02:44:46,018 UTC - INFO - Bot response: The branch operational hours for XYZ Bank are as follows: 
+- Weekdays: 9:30 AM to 4:00 PM (Public Dealing) 
+- Saturdays: 9:30 AM to 1:00 PM (Closed on 2nd and 4th Saturdays) 
+- Sundays: Closed. 
+
+Digital Banking is available 24/7/365 via the App and Net Banking.
+
+_Disclaimer: This information is for educational purposes only._
+2026-04-16 02:44:49,667 UTC - INFO - User query: exit
+2026-04-16 02:44:49,667 UTC - INFO - User requested to exit.
+2026-04-16 02:46:55,650 UTC - INFO - XYZ Bank Chatbot initialized and ready to receive queries.
+2026-04-16 02:46:58,579 UTC - INFO - User query: exit
+2026-04-16 02:46:58,579 UTC - INFO - User requested to exit.
+2026-04-16 18:16:28,893 UTC - INFO - XYZ Bank Chatbot initialized and ready to receive queries.
+2026-04-16 18:16:53,510 UTC - INFO - User query: what is the eligibility criteria for silver credit card?
+2026-04-16 18:16:55,826 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-16 18:16:55,837 UTC - INFO - Intent classification result: {'intent': 'general_faq', 'confidence_score': 0.92}
+2026-04-16 18:17:00,666 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-16 18:17:01,364 UTC - INFO - Retrieved chunk from rag_data/faqs.pdf (page 0):
+2026-04-16 18:17:01,364 UTC - INFO - Retrieved chunk from rag_data/faqs.pdf (page 0):
+2026-04-16 18:17:01,364 UTC - INFO - Retrieved chunk from rag_data/faqs.pdf (page 0):
+2026-04-16 18:17:04,159 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-16 18:17:04,162 UTC - INFO - Advisory engine response: advice="The eligibility criteria for a Silver Credit Card generally include factors such as a minimum income requirement, a good credit score (usually above a certain threshold), and a stable employment history. Specific details may vary by bank, so it's best to consult your bank's website or customer service for the precise criteria."
+2026-04-16 18:17:04,162 UTC - INFO - Bot response: The eligibility criteria for a Silver Credit Card generally include factors such as a minimum income requirement, a good credit score (usually above a certain threshold), and a stable employment history. Specific details may vary by bank, so it's best to consult your bank's website or customer service for the precise criteria.
+
+_Disclaimer: This information is for educational purposes only._
+2026-04-16 18:17:15,423 UTC - INFO - User query: exit
+2026-04-16 18:17:15,423 UTC - INFO - User requested to exit.
+2026-04-16 18:21:23,192 UTC - INFO - XYZ Bank Chatbot initialized and ready to receive queries.
+2026-04-16 18:21:25,846 UTC - INFO - User query: car
+2026-04-16 18:21:27,589 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-16 18:21:27,599 UTC - INFO - Intent classification result: {'intent': 'general_faq', 'confidence_score': 0.7}
+2026-04-16 18:21:28,612 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-16 18:21:28,616 UTC - INFO - Retrieved chunk from rag_data/faqs.pdf (page 0):
+2026-04-16 18:21:28,616 UTC - INFO - Retrieved chunk from rag_data/faqs.pdf (page 0):
+2026-04-16 18:21:28,616 UTC - INFO - Retrieved chunk from rag_data/faqs.pdf (page 0):
+2026-04-16 18:21:31,540 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-16 18:21:31,543 UTC - INFO - Advisory engine response: advice="It seems you're interested in cars. If you need assistance related to financing a car, such as loan options or general inquiries, please let me know how I can assist you further!"
+2026-04-16 18:21:31,543 UTC - INFO - Bot response: It seems you're interested in cars. If you need assistance related to financing a car, such as loan options or general inquiries, please let me know how I can assist you further!
+
+_Disclaimer: This information is for educational purposes only._
+2026-04-16 18:22:02,118 UTC - INFO - User query: what type of car is suited for family of 5?
+2026-04-16 18:22:03,602 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-16 18:22:03,606 UTC - INFO - Intent classification result: {'intent': 'general_faq', 'confidence_score': 0.85}
+2026-04-16 18:22:06,672 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-16 18:22:06,676 UTC - INFO - Retrieved chunk from rag_data/faqs.pdf (page 0):
+2026-04-16 18:22:06,676 UTC - INFO - Retrieved chunk from rag_data/faqs.pdf (page 0):
+2026-04-16 18:22:06,676 UTC - INFO - Retrieved chunk from rag_data/faqs.pdf (page 0):
+2026-04-16 18:22:11,760 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-16 18:22:11,762 UTC - INFO - Advisory engine response: advice="While I cannot provide specific car recommendations, generally, a family of 5 would benefit from a vehicle that offers ample seating and storage. Consider options such as SUVs, minivans, or larger sedans. Features to look for include safety ratings, space for car seats if needed, and good fuel efficiency for family trips. It's also worth considering test driving a few models to see what suits your family's needs best."
+2026-04-16 18:22:11,763 UTC - INFO - Bot response: While I cannot provide specific car recommendations, generally, a family of 5 would benefit from a vehicle that offers ample seating and storage. Consider options such as SUVs, minivans, or larger sedans. Features to look for include safety ratings, space for car seats if needed, and good fuel efficiency for family trips. It's also worth considering test driving a few models to see what suits your family's needs best.
+
+_Disclaimer: This information is for educational purposes only._
+2026-04-16 18:22:57,829 UTC - INFO - User query: exit
+2026-04-16 18:22:57,829 UTC - INFO - User requested to exit.
+2026-04-16 18:24:25,689 UTC - INFO - XYZ Bank Chatbot initialized and ready to receive queries.
+2026-04-16 18:24:31,126 UTC - INFO - User query: car
+2026-04-16 18:24:32,522 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-16 18:24:32,532 UTC - INFO - Intent classification result: {'intent': 'general_faq', 'confidence_score': 0.85}
+2026-04-16 18:24:33,612 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-16 18:24:33,616 UTC - INFO - Retrieved chunk from rag_data/faqs.pdf (page 0):
+2026-04-16 18:24:33,616 UTC - INFO - Retrieved chunk from rag_data/faqs.pdf (page 0):
+2026-04-16 18:24:33,616 UTC - INFO - Retrieved chunk from rag_data/faqs.pdf (page 0):
+2026-04-16 18:24:35,475 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-16 18:24:35,478 UTC - INFO - Advisory engine response: advice="It seems like you may be interested in financing a car. For detailed loan products, including interest rates and required documents, I recommend checking the 'Loan' section on our website or using the 'Loan Calculator' for a clearer perspective on your financial needs."
+2026-04-16 18:24:35,478 UTC - INFO - Bot response: It seems like you may be interested in financing a car. For detailed loan products, including interest rates and required documents, I recommend checking the 'Loan' section on our website or using the 'Loan Calculator' for a clearer perspective on your financial needs.
+
+_Disclaimer: This information is for educational purposes only._
+2026-04-16 18:24:51,022 UTC - INFO - User query: what type of car is suited for family of 5?
+2026-04-16 18:24:52,435 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-16 18:24:52,439 UTC - INFO - Intent classification result: {'intent': 'general_faq', 'confidence_score': 0.85}
+2026-04-16 18:24:53,395 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-16 18:24:53,399 UTC - INFO - Retrieved chunk from rag_data/faqs.pdf (page 0):
+2026-04-16 18:24:53,399 UTC - INFO - Retrieved chunk from rag_data/faqs.pdf (page 0):
+2026-04-16 18:24:53,399 UTC - INFO - Retrieved chunk from rag_data/faqs.pdf (page 0):
+2026-04-16 18:24:55,162 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-16 18:24:55,165 UTC - INFO - Advisory engine response: advice="I can only provide information related to banking. For vehicle recommendations, you might want to consult an automotive expert or research online based on your family's specific needs and preferences."
+2026-04-16 18:24:55,165 UTC - INFO - Bot response: I can only provide information related to banking. For vehicle recommendations, you might want to consult an automotive expert or research online based on your family's specific needs and preferences.
+
+_Disclaimer: This information is for educational purposes only._
+2026-04-16 18:25:05,909 UTC - INFO - User query: exit
+2026-04-16 18:25:05,910 UTC - INFO - User requested to exit.
+2026-04-17 18:38:29,392 UTC - INFO - XYZ Bank Chatbot initialized and ready to receive queries.
+2026-04-17 18:39:35,125 UTC - INFO - User query: How much will \u20b910,000/month grow to in 10 years at 12%?
+2026-04-17 18:39:37,751 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-17 18:39:37,773 UTC - INFO - Intent classification result: {'intent': 'investment_advice', 'confidence_score': 0.95}
+2026-04-17 18:44:27,847 UTC - INFO - XYZ Bank Chatbot initialized and ready to receive queries.
+2026-04-17 18:44:36,766 UTC - INFO - User query: How much will \u20b910,000/month grow to in 10 years at 12%?
+2026-04-17 18:44:38,913 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-17 18:44:38,923 UTC - INFO - Intent classification result: {'intent': 'investment_advice', 'confidence_score': 0.95}
+2026-04-17 18:44:38,932 UTC - ERROR - Error: Error during agent execution: `run` not supported when there is not exactly one output key. Got [].
+2026-04-17 18:44:38,932 UTC - INFO - Bot response: An error occurred while processing your request. Please try again later.
+2026-04-17 18:51:45,116 UTC - INFO - User query: exit
+2026-04-17 18:51:45,128 UTC - INFO - User requested to exit.
+2026-04-17 18:51:55,677 UTC - INFO - XYZ Bank Chatbot initialized and ready to receive queries.
+2026-04-17 18:51:58,885 UTC - INFO - User query: How much will \u20b910,000/month grow to in 10 years at 12%?
+2026-04-17 18:52:01,314 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-17 18:52:01,329 UTC - INFO - Intent classification result: {'intent': 'investment_advice', 'confidence_score': 0.97}
+2026-04-17 18:52:01,336 UTC - ERROR - Error: Error during agent execution: Chain.ainvoke() missing 1 required positional argument: 'input'
+2026-04-17 18:52:01,336 UTC - INFO - Bot response: An error occurred while processing your request. Please try again later.
+2026-04-17 18:52:06,476 UTC - INFO - User query: exit
+2026-04-17 18:52:06,476 UTC - INFO - User requested to exit.
+2026-04-17 18:57:08,650 UTC - INFO - XYZ Bank Chatbot initialized and ready to receive queries.
+2026-04-17 18:57:18,237 UTC - INFO - User query: How much will \u20b910,000/month grow to in 10 years at 12%?
+2026-04-17 18:57:20,609 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-17 18:57:20,625 UTC - INFO - Intent classification result: {'intent': 'investment_advice', 'confidence_score': 0.95}
+2026-04-17 18:57:20,632 UTC - ERROR - Error: Error during agent execution: coroutine raised StopIteration
+2026-04-17 18:57:20,632 UTC - INFO - Bot response: An error occurred while processing your request. Please try again later.
+2026-04-17 18:57:55,893 UTC - INFO - User query: exit
+2026-04-17 18:57:55,893 UTC - INFO - User requested to exit.
+2026-04-17 19:04:15,008 UTC - INFO - XYZ Bank Chatbot initialized and ready to receive queries.
+2026-04-17 19:04:20,525 UTC - INFO - User query: How much will \u20b910,000/month grow to in 10 years at 12%?
+2026-04-17 19:04:22,880 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-17 19:04:22,893 UTC - INFO - Intent classification result: {'intent': 'investment_advice', 'confidence_score': 0.95}
+2026-04-17 19:04:22,898 UTC - ERROR - Error: Error during agent execution: coroutine raised StopIteration
+2026-04-17 19:04:22,898 UTC - INFO - Bot response: An error occurred while processing your request. Please try again later.
+2026-04-17 19:14:11,556 UTC - INFO - User query: exit
+2026-04-17 19:14:11,556 UTC - INFO - User requested to exit.
+2026-04-17 19:14:18,964 UTC - INFO - XYZ Bank Chatbot initialized and ready to receive queries.
+2026-04-17 19:14:20,780 UTC - INFO - User query: How much will \u20b910,000/month grow to in 10 years at 12%?
+2026-04-17 19:14:22,182 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-17 19:14:22,192 UTC - INFO - Intent classification result: {'intent': 'investment_advice', 'confidence_score': 0.97}
+2026-04-17 19:14:22,203 UTC - ERROR - Error: Error during agent execution: coroutine raised StopIteration
+Traceback (most recent call last):
+  File "c:\iitm_pravartak\Capstone\capstone\Lib\site-packages\langchain_classic\chains\base.py", line 563, in aprep_inputs
+    inputs = {next(iter(_input_keys)): inputs}
+              ~~~~^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\iitm_pravartak\Capstone\Phase 5\main.py", line 54, in process_query
+    response = await agent_executor.ainvoke(input=user_query, intent=intent_result['intent'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\iitm_pravartak\Capstone\capstone\Lib\site-packages\langchain_classic\chains\base.py", line 202, in ainvoke
+    inputs = await self.aprep_inputs(input)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: coroutine raised StopIteration
+
+2026-04-17 19:14:22,203 UTC - INFO - Bot response: An error occurred while processing your request. Please try again later.
+2026-04-17 19:14:26,133 UTC - INFO - User query: exit
+2026-04-17 19:14:26,133 UTC - INFO - User requested to exit.
+2026-04-17 19:30:36,499 UTC - INFO - XYZ Bank Chatbot initialized and ready to receive queries.
+2026-04-17 19:30:44,165 UTC - INFO - User query: exit
+2026-04-17 19:30:44,165 UTC - INFO - User requested to exit.
+2026-04-17 19:31:22,406 UTC - INFO - XYZ Bank Chatbot initialized and ready to receive queries.
+2026-04-17 19:31:27,589 UTC - INFO - User query: How much will \u20b910,000/month grow to in 10 years at 12%?
+2026-04-17 19:31:29,315 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-17 19:31:29,328 UTC - INFO - Intent classification result: {'intent': 'investment_advice', 'confidence_score': 0.9}
+2026-04-17 19:31:30,981 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-17 19:31:31,155 UTC - ERROR - Error: Error during agent execution: object str can't be used in 'await' expression
+Traceback (most recent call last):
+  File "C:\iitm_pravartak\Capstone\Phase 5\main.py", line 55, in process_query
+    response = await agent_executor.ainvoke({"input": user_query})
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\iitm_pravartak\Capstone\capstone\Lib\site-packages\langchain_classic\chains\base.py", line 222, in ainvoke
+    await self._acall(inputs, run_manager=run_manager)
+  File "c:\iitm_pravartak\Capstone\capstone\Lib\site-packages\langchain_classic\agents\agent.py", line 1646, in _acall
+    next_step_output = await self._atake_next_step(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "c:\iitm_pravartak\Capstone\capstone\Lib\site-packages\langchain_classic\agents\agent.py", line 1428, in _atake_next_step
+    [
+    ^
+    ...<8 lines>...
+    ],
+    ^
+  File "c:\iitm_pravartak\Capstone\capstone\Lib\site-packages\langchain_classic\agents\agent.py", line 1511, in _aiter_next_step
+    result = await asyncio.gather(
+             ^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "c:\iitm_pravartak\Capstone\capstone\Lib\site-packages\langchain_classic\agents\agent.py", line 1549, in _aperform_agent_action
+    observation = await tool.arun(
+                  ^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "c:\iitm_pravartak\Capstone\capstone\Lib\site-packages\langchain_core\tools\base.py", line 1131, in arun
+    raise error_to_raise
+  File "c:\iitm_pravartak\Capstone\capstone\Lib\site-packages\langchain_core\tools\base.py", line 1097, in arun
+    response = await coro_with_context(coro, context)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\iitm_pravartak\Capstone\capstone\Lib\site-packages\langchain_core\tools\structured.py", line 124, in _arun
+    return await self.coroutine(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\iitm_pravartak\Capstone\Phase 5\tools.py", line 17, in calculate_sip
+    return await f"Future Value: \u20b9{round(fv, 2)}"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: object str can't be used in 'await' expression
+
+2026-04-17 19:31:31,155 UTC - INFO - Bot response: An error occurred while processing your request. Please try again later.
+2026-04-17 19:32:43,517 UTC - INFO - User query: exit
+2026-04-17 19:32:43,517 UTC - INFO - User requested to exit.
+2026-04-17 19:32:49,707 UTC - INFO - XYZ Bank Chatbot initialized and ready to receive queries.
+2026-04-17 19:32:52,318 UTC - INFO - User query: How much will \u20b910,000/month grow to in 10 years at 12%?
+2026-04-17 19:32:54,490 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-17 19:32:54,499 UTC - INFO - Intent classification result: {'intent': 'investment_advice', 'confidence_score': 0.95}
+2026-04-17 19:32:55,974 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-17 19:32:57,895 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-17 19:32:58,462 UTC - INFO - Bot response: {'input': 'How much will \u20b910,000/month grow to in 10 years at 12%?', 'output': 'If you invest \u20b910,000 every month for 10 years at an annual interest rate of 12%, the total amount you would accumulate would be approximately \u20b923,23,390.76.\n\n_Disclaimer: Educational purposes only._'}
+2026-04-17 19:33:27,333 UTC - INFO - User query: What's the EMI for a 20L loan at 9%?
+2026-04-17 19:33:29,046 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-17 19:33:29,051 UTC - INFO - Intent classification result: {'intent': 'loan_inquiry', 'confidence_score': 0.95}
+2026-04-17 19:33:30,282 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-17 19:33:31,513 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-17 19:33:31,974 UTC - INFO - Bot response: {'input': "What's the EMI for a 20L loan at 9%?", 'output': 'The EMI for a \u20b920 lakh loan at an interest rate of 9% over 20 years is \u20b917,994.52.\n\n_Disclaimer: Educational purposes only._'}
+2026-04-17 19:34:06,341 UTC - INFO - User query: what are the bank working hours?
+2026-04-17 19:34:07,734 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-17 19:34:07,738 UTC - INFO - Intent classification result: {'intent': 'general_faq', 'confidence_score': 0.95}
+2026-04-17 19:34:08,959 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-17 19:34:12,192 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-17 19:34:12,209 UTC - INFO - Retrieved chunk from rag_data/faqs.pdf (page 0):
+2026-04-17 19:34:12,209 UTC - INFO - Retrieved chunk from rag_data/faqs.pdf (page 0):
+2026-04-17 19:34:12,209 UTC - INFO - Retrieved chunk from rag_data/faqs.pdf (page 0):
+2026-04-17 19:34:16,402 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-17 19:34:16,410 UTC - INFO - Advisory engine result: advice='Our branch operational hours are as follows:\n- Weekdays: 9:30 AM to 4:00 PM (Public Dealing).\n- Saturdays: 9:30 AM to 1:00 PM (Closed on 2nd and 4th Saturdays).\n- Sundays: Closed.\nFor digital banking, services are available 24/7/365 via our App and Net Banking.'
+2026-04-17 19:34:17,508 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-17 19:34:19,179 UTC - INFO - Bot response: {'input': 'what are the bank working hours?', 'output': 'Our branch operational hours are as follows:\n\n- **Weekdays**: 9:30 AM to 4:00 PM (Public Dealing)\n- **Saturdays**: 9:30 AM to 1:00 PM (Closed on 2nd and 4th Saturdays)\n- **Sundays**: Closed\n\nFor digital banking, services are available 24/7/365 via our App and Net Banking.\n\n_Disclaimer: Educational purposes only._'}
+2026-04-17 19:34:35,548 UTC - INFO - User query: exit
+2026-04-17 19:34:35,549 UTC - INFO - User requested to exit.
+2026-04-17 19:37:14,551 UTC - INFO - XYZ Bank Chatbot initialized and ready to receive queries.
+2026-04-17 19:38:00,773 UTC - INFO - User query: home loan interest rate
+2026-04-17 19:38:04,285 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-17 19:38:04,294 UTC - INFO - Intent classification result: {'intent': 'loan_inquiry', 'confidence_score': 0.95}
+2026-04-17 19:38:05,955 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-17 19:38:08,021 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-17 19:38:08,028 UTC - INFO - Retrieved chunk from rag_data/loan.pdf (page 0):
+2026-04-17 19:38:08,029 UTC - INFO - Retrieved chunk from rag_data/loan.pdf (page 0):
+2026-04-17 19:38:08,029 UTC - INFO - Retrieved chunk from rag_data/loan.pdf (page 0):
+2026-04-17 19:38:08,029 UTC - INFO - Retrieved chunk from rag_data/loan.pdf (page 0):
+2026-04-17 19:38:11,167 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-17 19:38:11,172 UTC - INFO - Advisory engine result: advice="The indicative interest rates for home loans are currently between 8.40% to 9.25% per annum, linked to EBLR/Repo. To check your eligibility and calculate potential EMIs, please explore the 'Loan Calculator' on our website."
+2026-04-17 19:38:12,372 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-17 19:38:13,397 UTC - INFO - Bot response: The indicative interest rates for home loans are currently between 8.40% to 9.25% per annum, linked to EBLR/Repo. To check your eligibility and calculate potential EMIs, please explore the "Loan Calculator" on our website.
+
+_Disclaimer: Educational purposes only._
+2026-04-17 19:38:29,878 UTC - INFO - User query: exit
+2026-04-17 19:38:29,878 UTC - INFO - User requested to exit.
+2026-04-17 19:41:07,431 UTC - INFO - XYZ Bank Chatbot initialized and ready to receive queries.
+2026-04-17 19:41:18,926 UTC - INFO - User query: home loan interest rate
+2026-04-17 19:41:21,001 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-17 19:41:21,010 UTC - INFO - Intent classification result: {'intent': 'loan_inquiry', 'confidence_score': 0.95}
+2026-04-17 19:41:22,446 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-17 19:41:23,618 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-17 19:41:23,623 UTC - INFO - Retrieved chunk from rag_data/loan.pdf (page 0):
+2026-04-17 19:41:23,624 UTC - INFO - Retrieved chunk from rag_data/loan.pdf (page 0):
+2026-04-17 19:41:23,624 UTC - INFO - Retrieved chunk from rag_data/loan.pdf (page 0):
+2026-04-17 19:41:23,624 UTC - INFO - Retrieved chunk from rag_data/loan.pdf (page 0):
+2026-04-17 19:41:26,288 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-17 19:41:26,292 UTC - INFO - Advisory engine result: advice="The indicative interest rates for home loans are currently between 8.40% to 9.25% per annum, and they are linked to either the EBLR or Repo rate. I recommend using the 'Loan Calculator' on our website to evaluate potential EMI and other related calculations."
+2026-04-17 19:41:27,371 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-17 19:41:28,734 UTC - INFO - Bot response: The indicative interest rates for home loans are currently between 8.40% to 9.25% per annum, and these rates are linked to either the EBLR (External Benchmark Lending Rate) or the Repo rate. I recommend using the 'Loan Calculator' available on our website to evaluate potential EMI and other related calculations.
+
+_Disclaimer: Educational purposes only._
+2026-04-17 19:41:33,844 UTC - INFO - User query: exit
+2026-04-17 19:41:33,845 UTC - INFO - User requested to exit.
+2026-04-17 19:42:20,610 UTC - INFO - XYZ Bank Chatbot initialized and ready to receive queries.
+2026-04-17 19:42:23,350 UTC - INFO - User query: What is the interest on a 10 Lakh home loan
+2026-04-17 19:42:25,467 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-17 19:42:25,476 UTC - INFO - Intent classification result: {'intent': 'loan_inquiry', 'confidence_score': 0.95}
+2026-04-17 19:42:26,694 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-17 19:42:28,553 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-17 19:42:28,560 UTC - INFO - Retrieved chunk from rag_data/loan.pdf (page 0):
+2026-04-17 19:42:28,560 UTC - INFO - Retrieved chunk from rag_data/loan.pdf (page 0):
+2026-04-17 19:42:28,560 UTC - INFO - Retrieved chunk from rag_data/loan.pdf (page 0):
+2026-04-17 19:42:28,560 UTC - INFO - Retrieved chunk from rag_data/loan.pdf (page 0):
+2026-04-17 19:42:31,398 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-17 19:42:31,406 UTC - INFO - Advisory engine result: advice="The indicative interest rates for a home loan range from 8.40% to 9.25% per annum, depending on various factors such as your credit score and bank policies. To estimate the monthly EMI for a \u20b910 lakh home loan, I recommend using the 'Loan Calculator' on our website where you can input your loan amount and the applicable interest rate to get a clearer idea."
+2026-04-17 19:42:32,364 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-17 19:42:33,838 UTC - INFO - Bot response: The indicative interest rates for a home loan typically range from 8.40% to 9.25% per annum. These rates may vary based on several factors, including your credit score and the specific policies of the bank. 
+
+To estimate the monthly EMI for a \u20b910 lakh home loan, I recommend using the 'Loan Calculator' available on our website, where you can input your loan amount and the applicable interest rate for a more precise calculation.
+
+_Disclaimer: Educational purposes only._
+2026-04-17 19:43:01,396 UTC - INFO - User query: exit
+2026-04-17 19:43:01,397 UTC - INFO - User requested to exit.
+2026-04-19 05:53:19,662 UTC - INFO - XYZ Bank Chatbot initialized and ready to receive queries.
+2026-04-19 05:54:14,270 UTC - INFO - User query: exit
+2026-04-19 05:54:14,270 UTC - INFO - User requested to exit.
+2026-04-19 05:54:21,006 UTC - INFO - XYZ Bank Chatbot initialized and ready to receive queries.
+2026-04-19 05:55:24,551 UTC - INFO - User query: How much will 10,000/month grow to in 10 years at 12%?
+2026-04-19 05:55:27,054 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 05:55:27,072 UTC - INFO - Intent classification result: {'intent': 'investment_advice', 'confidence_score': 0.95}
+2026-04-19 05:55:28,897 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 05:55:31,768 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 05:55:32,661 UTC - INFO - Bot response: If you invest ₹10,000 per month for 10 years at an expected annual return rate of 12%, your investment will grow to approximately ₹2,323,390.76.
+
+_Disclaimer: Educational purposes only._
+2026-04-19 05:56:18,453 UTC - INFO - User query: exit
+2026-04-19 05:56:18,454 UTC - INFO - User requested to exit.
+2026-04-19 05:57:24,446 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-19 05:57:24,658 UTC - INFO - XYZ Bank Chatbot initialized and ready to receive queries.
+2026-04-19 05:57:46,316 UTC - INFO - User query: How much will 15,000/month grow to in 10 years at 12%?
+2026-04-19 05:57:48,568 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 05:57:48,580 UTC - INFO - Intent classification result: {'intent': 'investment_advice', 'confidence_score': 0.92}
+2026-04-19 05:57:49,927 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 05:57:52,132 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 05:57:52,883 UTC - INFO - Bot response: If you invest ₹15,000 per month for 10 years at an expected return rate of 12%, your investment will grow to approximately ₹3,485,086.15.
+
+_Disclaimer: Educational purposes only._
+2026-04-19 05:59:01,878 UTC - INFO - User query: exit
+2026-04-19 05:59:01,879 UTC - INFO - User requested to exit.
+2026-04-19 06:05:22,878 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-19 06:05:23,213 UTC - INFO - XYZ Bank Chatbot initialized and ready to receive queries.
+2026-04-19 06:05:58,143 UTC - INFO - User query: What's the EMI for a 20L loan at 9%?
+2026-04-19 06:06:00,235 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 06:06:00,249 UTC - INFO - Intent classification result: {'intent': 'loan_inquiry', 'confidence_score': 0.95}
+2026-04-19 06:06:01,734 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 06:06:02,403 UTC - INFO - Agent Action: Using tool 'calculate_emi' with input '{'principal': 2000000, 'annual_rate': 9, 'tenure_years': 20}'
+2026-04-19 06:06:04,438 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 06:06:05,150 UTC - INFO - Agent Final Answer: The monthly EMI for a loan of ₹20,00,000 at an interest rate of 9% for a tenure of 20 years is approximately ₹17,994.52.
+
+_Disclaimer: Educational purposes only._
+2026-04-19 06:07:53,355 UTC - INFO - User query: How much will 15,000/month grow to in 10 years at 12%?
+2026-04-19 06:07:55,532 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 06:07:55,536 UTC - INFO - Intent classification result: {'intent': 'investment_advice', 'confidence_score': 0.97}
+2026-04-19 06:07:56,920 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 06:07:57,119 UTC - INFO - Agent Action: Using tool 'calculate_sip' with input '{'monthly_investment': 15000, 'expected_return_rate': 12, 'years': 10}'
+2026-04-19 06:07:59,017 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 06:07:59,762 UTC - INFO - Agent Final Answer: If you invest ₹15,000 each month for 10 years at an annual return rate of 12%, your investment will grow to approximately ₹34,85,086.15.
+
+_Disclaimer: Educational purposes only._
+2026-04-19 06:08:04,734 UTC - INFO - User query: exit
+2026-04-19 06:08:04,734 UTC - INFO - User requested to exit.
+2026-04-19 06:08:57,349 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-19 06:08:57,570 UTC - INFO - XYZ Bank Chatbot initialized and ready to receive queries.
+2026-04-19 06:09:01,133 UTC - INFO - User query: home loan interest rate
+2026-04-19 06:09:02,758 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 06:09:02,770 UTC - INFO - Intent classification result: {'intent': 'loan_inquiry', 'confidence_score': 0.95}
+2026-04-19 06:09:04,394 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 06:09:04,685 UTC - INFO - Agent Action: Using tool 'advisory_engine' with input '{'query': 'home loan interest rate', 'intent': 'loan_inquiry'}'
+2026-04-19 06:09:05,583 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-19 06:09:05,597 UTC - INFO - Retrieved chunk from rag_data/loan.pdf (page 0):
+2026-04-19 06:09:05,597 UTC - INFO - Retrieved chunk from rag_data/loan.pdf (page 0):
+2026-04-19 06:09:05,597 UTC - INFO - Retrieved chunk from rag_data/loan.pdf (page 0):
+2026-04-19 06:09:05,597 UTC - INFO - Retrieved chunk from rag_data/loan.pdf (page 0):
+2026-04-19 06:09:08,011 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 06:09:08,015 UTC - INFO - Advisory engine result: advice="The indicative interest rates for home loans as of April 2026 range from 8.40% to 9.25%, depending on whether they are linked to EBLR or Repo Rate. For the best options, it's also advisable to consider your credit score and eligibility. You can explore more about your eligibility and calculate potential EMIs using the 'Loan Calculator' on our website."
+2026-04-19 06:09:09,614 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 06:09:10,789 UTC - INFO - Agent Final Answer: The indicative interest rates for home loans as of April 2026 range from 8.40% to 9.25%, depending on whether they are linked to EBLR or Repo Rate. For the best options, it's also advisable to consider your credit score and eligibility. You can explore more about your eligibility and calculate potential EMIs using the 'Loan Calculator' on our website.
+
+_Disclaimer: Educational purposes only._
+2026-04-19 06:09:14,355 UTC - INFO - User query: exit
+2026-04-19 06:09:14,355 UTC - INFO - User requested to exit.
