@@ -39,9 +39,7 @@ def generate_session_id():
     to produce a stable, non-revealing identifier for logs/metrics.
     """
     try:
-        node = platform.node() or ""
-        mac = uuid.getnode() or 0
-        raw = f"{node}-{mac}"
+        raw = str(uuid.uuid4())
         return hashlib.sha256(raw.encode("utf-8")).hexdigest()[:16]
     except Exception as e:
         logger.log_error(f"Error generating session ID: {e}")

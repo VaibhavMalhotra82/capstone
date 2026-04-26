@@ -39,19 +39,6 @@ _Disclaimer: Educational purposes only._
 _Disclaimer: Educational purposes only._
 2026-04-22 18:01:31,838 UTC - INFO - User query: exit
 2026-04-22 18:01:31,838 UTC - INFO - User requested to exit.
-2026-04-22 18:01:39,456 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
-2026-04-22 18:01:39,691 UTC - INFO - XYZ Bank Chatbot initialized and ready to receive queries.
-2026-04-22 18:01:39,691 UTC - INFO - Session ID: ba7dfd65510643c3
-2026-04-22 18:02:12,282 UTC - INFO - User query: home loan interest
-2026-04-22 18:02:16,249 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
-2026-04-22 18:02:16,260 UTC - INFO - Intent classification result: {'intent': 'loan_inquiry', 'confidence_score': 0.95, 'feedback': None}
-2026-04-22 18:02:16,266 UTC - INFO - Feedback loaded for session ba7dfd65510643c3
-2026-04-22 18:02:18,246 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
-2026-04-22 18:02:18,256 UTC - INFO - Agent Final Answer: Home loan interest rates: **8.40% - 9.25%**.
-
-_Disclaimer: Educational purposes only._
-2026-04-22 18:02:28,650 UTC - INFO - User query: exit
-2026-04-22 18:02:28,651 UTC - INFO - User requested to exit.
 ```
 
 ## Explain what changed and why
