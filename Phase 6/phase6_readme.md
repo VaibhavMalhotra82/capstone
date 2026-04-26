@@ -24,7 +24,7 @@ _Disclaimer: Educational purposes only._
 ```
 ## Add memory handling 
 - JSON file backed memory. File naming convention is `history_<session_id>.json`
-- Session ID is based on the host node name and the MAC address to uniquely identify the per-host session.
+- Session ID is based on the uuid.uuid4() to uniquely identify the per-user session.
 
 ## Improve multi-turn conversations
 ```
