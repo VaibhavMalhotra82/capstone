@@ -1,0 +1,868 @@
+2026-04-25 05:40:45,942 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-25 05:40:47,323 UTC - INFO - XYZ Bank Chatbot initialized and ready to receive queries.
+2026-04-25 05:40:47,323 UTC - INFO - Session ID: ba7dfd65510643c3
+2026-04-25 05:41:52,849 UTC - INFO - User query: bank operational hours
+2026-04-25 05:41:55,315 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-25 05:49:43,708 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-25 05:49:44,092 UTC - INFO - XYZ Bank Chatbot initialized and ready to receive queries.
+2026-04-25 05:49:44,092 UTC - INFO - Session ID: ba7dfd65510643c3
+2026-04-25 05:49:50,425 UTC - INFO - User query: bank operational hours
+2026-04-25 05:49:51,810 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-25 05:49:51,825 UTC - INFO - Intent classification raw output: content='{"category":"general_faq","confidence":0.95,"feedback":null}' additional_kwargs={'parsed': IntentTag(category='general_faq', confidence=0.95, feedback=None), 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 17, 'prompt_tokens': 580, 'total_tokens': 597, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_provider': 'openai', 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_0f0976c4d2', 'id': 'chatcmpl-DYQBj9lZoS6laYjshP3pcDkmpOpBJ', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None} id='lc_run--019dc32f-e9e2-78c0-bb6e-116e65a118dd-0' tool_calls=[] invalid_tool_calls=[] usage_metadata={'input_tokens': 580, 'output_tokens': 17, 'total_tokens': 597, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}
+2026-04-25 05:49:51,826 UTC - INFO - Intent classification parsed output: No parsed output
+2026-04-25 06:32:06,958 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-25 06:32:07,285 UTC - INFO - XYZ Bank Chatbot initialized and ready to receive queries.
+2026-04-25 06:32:07,285 UTC - INFO - Session ID: ba7dfd65510643c3
+2026-04-25 06:32:32,650 UTC - INFO - User query: bank operational working hours
+2026-04-25 06:32:34,949 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-25 06:32:34,963 UTC - INFO - Intent classification raw output: content='{"category":"general_faq","confidence":0.95,"feedback":null}' additional_kwargs={'parsed': IntentTag(category='general_faq', confidence=0.95, feedback=None), 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 17, 'prompt_tokens': 581, 'total_tokens': 598, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_provider': 'openai', 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_0f0976c4d2', 'id': 'chatcmpl-DYQr4SBOUu19JkKDq4XHE0KN5IP8b', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None} id='lc_run--019dc357-029a-7cf3-bb6e-0758444e5b1f-0' tool_calls=[] invalid_tool_calls=[] usage_metadata={'input_tokens': 581, 'output_tokens': 17, 'total_tokens': 598, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}
+2026-04-25 06:32:34,963 UTC - INFO - Intent classification parsed output: category='general_faq' confidence=0.95 feedback=None
+2026-04-25 06:39:16,716 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-25 06:39:17,487 UTC - INFO - XYZ Bank Chatbot initialized and ready to receive queries.
+2026-04-25 06:39:17,487 UTC - INFO - Session ID: ba7dfd65510643c3
+2026-04-25 06:39:19,001 UTC - INFO - User query: hi
+2026-04-25 06:39:21,237 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-25 06:39:21,252 UTC - INFO - Intent classification raw output: <class 'langchain_core.messages.ai.AIMessage'>
+2026-04-25 06:39:21,252 UTC - INFO - Intent classification parsed output: <class 'models.IntentTag'>
+2026-04-25 06:40:52,008 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-25 06:40:52,252 UTC - INFO - XYZ Bank Chatbot initialized and ready to receive queries.
+2026-04-25 06:40:52,252 UTC - INFO - Session ID: ba7dfd65510643c3
+2026-04-25 06:40:55,073 UTC - INFO - User query: hi
+2026-04-25 06:40:58,701 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-25 06:40:58,713 UTC - INFO - Intent classification raw output: <class 'langchain_core.messages.ai.AIMessage'>
+2026-04-25 06:40:58,713 UTC - INFO - Intent classification parsed output: <class 'models.IntentTag'>
+2026-04-25 06:40:58,713 UTC - INFO - Intent classification result: {'intent': 'greeting', 'confidence_score': 0.99, 'feedback': None}
+2026-04-25 06:40:58,720 UTC - INFO - Feedback loaded for session ba7dfd65510643c3
+2026-04-25 06:41:00,427 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-25 06:41:01,395 UTC - INFO - Agent Final Answer: Hello! How can I assist you today? If you have questions about banking products, loans, or anything else related to finance, feel free to ask!
+
+_Disclaimer: Educational purposes only._
+2026-04-25 06:41:15,393 UTC - INFO - User query: exit
+2026-04-25 06:41:15,393 UTC - INFO - User requested to exit.
+2026-04-25 06:43:34,156 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-25 06:43:34,549 UTC - INFO - XYZ Bank Chatbot initialized and ready to receive queries.
+2026-04-25 06:43:34,549 UTC - INFO - Session ID: ba7dfd65510643c3
+2026-04-25 06:43:37,577 UTC - INFO - User query: hi
+2026-04-25 06:43:39,865 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-25 06:43:39,877 UTC - INFO - Intent classification raw output: <class 'langchain_core.messages.ai.AIMessage'>
+2026-04-25 06:43:39,878 UTC - INFO - Intent classification parsed output: <class 'models.IntentTag'>
+2026-04-25 06:43:39,878 UTC - INFO - Intent classification result: {'intent': 'greeting', 'confidence_score': 0.99, 'feedback': None}
+2026-04-25 06:43:39,883 UTC - INFO - Feedback loaded for session ba7dfd65510643c3
+2026-04-25 06:43:41,538 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-25 06:43:41,987 UTC - INFO - Agent Final Answer: Hello! How can I assist you today? If you have any questions about banking, loans, credit cards, or other financial matters, feel free to ask, and I'll provide you with detailed information.
+
+_Disclaimer: Educational purposes only._
+2026-04-25 06:43:43,832 UTC - INFO - User query: exit
+2026-04-25 06:43:43,832 UTC - INFO - User requested to exit.
+2026-04-25 06:48:38,441 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-25 06:48:38,652 UTC - INFO - XYZ Bank Chatbot initialized and ready to receive queries.
+2026-04-25 06:48:38,653 UTC - INFO - Session ID: ba7dfd65510643c3
+2026-04-25 06:48:40,769 UTC - INFO - User query: hi
+2026-04-25 06:48:43,943 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-25 06:48:44,472 UTC - INFO - Intent classification raw output: <class 'langchain_core.messages.ai.AIMessage'>
+2026-04-25 06:48:44,472 UTC - INFO - Intent classification parsed output: <class 'models.IntentTag'>
+2026-04-25 06:48:44,473 UTC - INFO - Intent classification result: {'intent': 'greeting', 'confidence_score': 0.99, 'feedback': None}
+2026-04-25 06:48:44,478 UTC - INFO - Feedback loaded for session ba7dfd65510643c3
+2026-04-25 06:48:46,053 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-25 06:48:46,819 UTC - INFO - Agent Final Answer: Hello! How can I assist you today? If you have any specific questions regarding banking, loans, credit cards, or other financial topics, please let me know, and I will provide you with detailed and comprehensive answers.
+
+_Disclaimer: Educational purposes only._
+2026-04-25 06:48:50,633 UTC - INFO - User query: exit
+2026-04-25 06:48:50,633 UTC - INFO - User requested to exit.
+2026-04-25 06:53:15,442 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-25 06:58:01,736 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-25 06:58:01,957 UTC - INFO - XYZ Bank Chatbot initialized and ready to receive queries.
+2026-04-25 06:58:01,957 UTC - INFO - Session ID: ba7dfd65510643c3
+2026-04-25 06:58:16,442 UTC - INFO - User query: bank operational working hours
+2026-04-25 06:58:18,929 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-25 06:58:18,941 UTC - INFO - Intent classification raw output: content='{"category":"general_faq","confidence":0.97,"feedback":null}' additional_kwargs={'parsed': IntentTag(category='general_faq', confidence=0.97, feedback=None), 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 17, 'prompt_tokens': 581, 'total_tokens': 598, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_provider': 'openai', 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_0f0976c4d2', 'id': 'chatcmpl-DYRFyTAzoxypkKhbLQNj9pvFIk3IF', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None} id='lc_run--019dc36e-9103-7d80-95e9-51f424f128fc-0' tool_calls=[] invalid_tool_calls=[] usage_metadata={'input_tokens': 581, 'output_tokens': 17, 'total_tokens': 598, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}
+2026-04-25 06:58:18,941 UTC - INFO - Intent classification parsed output: <class 'models.IntentTag'>
+2026-04-25 06:58:18,941 UTC - INFO - Intent classification result: {'intent': 'general_faq', 'confidence_score': 0.97, 'feedback': None}
+2026-04-25 06:58:18,946 UTC - INFO - Feedback loaded for session ba7dfd65510643c3
+2026-04-25 06:58:20,783 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-25 06:58:24,906 UTC - INFO - Agent Final Answer: The operational working hours for XYZ Bank are as follows:
+
+1. **Weekdays (Monday to Friday)**:
+   - **Public Dealing Hours**: **9:30 AM to 4:00 PM**
+   - During these hours, you can visit the branch for various services such as account management, deposits, withdrawals, and loan consultations.
+
+2. **Saturdays**:
+   - **1st, 3rd, and 5th Saturdays**: **9:30 AM to 1:00 PM**
+   - **2nd and 4th Saturdays**: Closed
+   - This schedule allows you some flexibility to manage your banking needs during the weekends.
+
+3. **Sundays**: 
+   - All Sundays are closed for regular banking services. 
+
+Additionally, please note that our digital banking services are available **24/7**. This means you can perform online transactions, manage your accounts, and access other banking services at any time, even outside of branch hours.
+
+For any specific inquiries or changes in timings, you can always check our official website or contact the nearest branch for confirmation.
+
+_Disclaimer: Educational purposes only._
+2026-04-25 06:58:28,986 UTC - INFO - User query: exit
+2026-04-25 06:58:28,986 UTC - INFO - User requested to exit.
+2026-04-25 07:01:29,308 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-25 07:01:29,521 UTC - INFO - XYZ Bank Chatbot initialized and ready to receive queries.
+2026-04-25 07:01:29,521 UTC - INFO - Session ID: ba7dfd65510643c3
+2026-04-25 07:01:47,874 UTC - INFO - User query: home loan interest rates
+2026-04-25 07:01:50,732 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-25 07:01:50,751 UTC - INFO - Intent classification raw output: content='{"category":"loan_inquiry","confidence":0.92,"feedback":null}' additional_kwargs={'parsed': IntentTag(category='loan_inquiry', confidence=0.92, feedback=None), 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 17, 'prompt_tokens': 581, 'total_tokens': 598, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_provider': 'openai', 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_0f0976c4d2', 'id': 'chatcmpl-DYRJNJVr7ptGFfrA8tojWjhO0py4c', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None} id='lc_run--019dc371-caea-7ed3-8997-103ff69860c5-0' tool_calls=[] invalid_tool_calls=[] usage_metadata={'input_tokens': 581, 'output_tokens': 17, 'total_tokens': 598, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}
+2026-04-25 07:01:50,751 UTC - INFO - Intent classification parsed output: <class 'models.IntentTag'>
+2026-04-25 07:01:50,752 UTC - INFO - Intent classification result: {'intent': 'loan_inquiry', 'confidence_score': 0.92, 'feedback': None}
+2026-04-25 07:01:50,759 UTC - INFO - Feedback loaded for session ba7dfd65510643c3
+2026-04-25 07:01:52,758 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-25 07:02:02,786 UTC - INFO - Agent Final Answer: The home loan interest rates at XYZ Bank currently range from **8.40% to 9.25%** per annum. Here's a detailed overview of what impacts these rates:
+
+1. **Type of Interest Rate**:
+   - **Fixed Rate**: The interest rate remains constant throughout the loan tenure, providing stability in monthly payments.
+   - **Floating Rate**: The rate can fluctuate based on market conditions, usually linked to benchmarks like EBLR (External Benchmark Lending Rate) or Repo Rate.
+
+2. **Eligibility Criteria**:
+   - Your credit score plays a vital role. Higher scores (preferably above **700**) can help you secure lower interest rates as they indicate better creditworthiness.
+   - Your income level and stability also influence the rates offered. A higher and consistent income can qualify you for more attractive deals.
+
+3. **Loan Amount and Tenure**:
+   - The size of the loan and the duration for repayment affect the interest rate. Typically, larger amounts and longer terms may come with different calculations for interest.
+
+4. **Market Conditions**:
+   - Economic factors, including inflation rates and RBI policies, can lead to changes in interest rates offered by banks.
+
+5. **Home Loan Products**: 
+   - XYZ Bank offers a variety of home loan products catering to different needs, such as loans for purchasing new homes, constructing, or renovating existing properties. Each product may have different associated interest rates based on the risk assessment executed by the bank.
+
+6. **Processing Fees**: 
+   - Be aware that banks also charge processing fees, which can influence the overall cost of obtaining a home loan.
+
+For the most accurate and personalized information, it’s advisable to consult with a banking advisor or visit the bank's official website to review current offers and tools such as loan calculators. This will help you assess how these rates apply to your specific situation and financial needs.
+
+_Disclaimer: Educational purposes only._
+2026-04-25 07:02:05,473 UTC - INFO - User query: exit
+2026-04-25 07:02:05,474 UTC - INFO - User requested to exit.
+2026-04-25 07:10:42,700 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-25 07:10:42,918 UTC - INFO - XYZ Bank Chatbot initialized and ready to receive queries.
+2026-04-25 07:10:42,918 UTC - INFO - Session ID: ba7dfd65510643c3
+2026-04-25 07:10:54,185 UTC - INFO - User query: bank operational hours
+2026-04-25 07:10:57,277 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-25 07:10:57,293 UTC - INFO - Intent classification raw output: content='{"category":"general_faq","confidence":0.95,"feedback":null}' additional_kwargs={'parsed': IntentTag(category='general_faq', confidence=0.95, feedback=None), 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 17, 'prompt_tokens': 580, 'total_tokens': 597, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_provider': 'openai', 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_0f0976c4d2', 'id': 'chatcmpl-DYRSCtGiT5ujQh8T7yjw7chw8mrWq', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None} id='lc_run--019dc37a-20f7-7561-b4dc-8320ab03cc33-0' tool_calls=[] invalid_tool_calls=[] usage_metadata={'input_tokens': 580, 'output_tokens': 17, 'total_tokens': 597, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}
+2026-04-25 07:10:57,293 UTC - INFO - Intent classification parsed output: <class 'models.IntentTag'>
+2026-04-25 07:10:57,293 UTC - INFO - Intent classification result: {'intent': 'general_faq', 'confidence_score': 0.95, 'feedback': None}
+2026-04-25 07:10:57,299 UTC - INFO - Feedback loaded for session ba7dfd65510643c3
+2026-04-25 07:10:58,737 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-25 07:11:04,397 UTC - INFO - Agent Final Answer: The operational hours for XYZ Bank are designed to accommodate your banking needs effectively. Here’s a detailed breakdown:
+
+1. **Weekdays (Monday to Friday)**:
+   - **Public Dealing Hours**: **9:30 AM to 4:00 PM**. 
+   - During these hours, you can visit the bank for various services including account management, deposits, withdrawals, and loan consultations. Staff members are available to assist with inquiries and provide guidance on banking products.
+
+2. **Saturdays**: 
+   - The bank follows a structured timetable for Saturdays as well:
+     - **1st, 3rd, and 5th Saturdays**: Open from **9:30 AM to 1:00 PM**. 
+     - **2nd and 4th Saturdays**: The bank remains closed on these days. 
+   - This schedule allows customers to conduct banking transactions on select Saturdays while accommodating staff requirements and operational efficiency.
+
+3. **Sundays**:
+   - All Sundays are designated as bank holidays, meaning branches are closed for regular public services. 
+
+4. **Holiday Observations**: 
+   - Additionally, the bank observes national holidays, which may further affect branch availability. Always check ahead for specific holidays.
+
+5. **Digital Banking Services**:
+   - One of the significant advantages of banking with XYZ Bank is that our digital banking services are available **24/7**. This means you can access online banking, mobile banking, fund transfers, bill payments, and account management anytime, outside of traditional branch hours.
+
+6. **Emergency Assistance**: 
+   - For urgent queries or issues outside of branch operational hours, customer service is available through helplines or chat support online. This ensures that your banking needs are addressed promptly, even when branches are closed.
+
+For more specific inquiries about branch locations or any changes to the operational hours, you may contact our customer service or check the official website for the most accurate information.
+
+_Disclaimer: Educational purposes only._
+2026-04-25 07:11:12,401 UTC - INFO - User query: exit
+2026-04-25 07:11:12,401 UTC - INFO - User requested to exit.
+2026-04-25 07:14:17,138 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-25 07:14:17,355 UTC - INFO - XYZ Bank Chatbot initialized and ready to receive queries.
+2026-04-25 07:14:17,355 UTC - INFO - Session ID: ba7dfd65510643c3
+2026-04-25 07:14:25,209 UTC - INFO - User query: home loan interest rates
+2026-04-25 07:14:29,307 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-25 07:14:29,329 UTC - INFO - Intent classification raw output: content='{"category":"loan_inquiry","confidence":0.95,"feedback":null}' additional_kwargs={'parsed': IntentTag(category='loan_inquiry', confidence=0.95, feedback=None), 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 17, 'prompt_tokens': 581, 'total_tokens': 598, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_provider': 'openai', 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_0f0976c4d2', 'id': 'chatcmpl-DYRVbFLiusPXmZ9Ocr2MwB7Wh6Pci', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None} id='lc_run--019dc37d-5980-7ac3-b714-1362f1d5827c-0' tool_calls=[] invalid_tool_calls=[] usage_metadata={'input_tokens': 581, 'output_tokens': 17, 'total_tokens': 598, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}
+2026-04-25 07:14:29,329 UTC - INFO - Intent classification parsed output: <class 'models.IntentTag'>
+2026-04-25 07:14:29,330 UTC - INFO - Intent classification result: {'intent': 'loan_inquiry', 'confidence_score': 0.95, 'feedback': None}
+2026-04-25 07:14:29,336 UTC - INFO - Feedback loaded for session ba7dfd65510643c3
+2026-04-25 07:14:30,877 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-25 07:14:37,675 UTC - INFO - Agent Final Answer: The home loan interest rates at XYZ Bank currently range from **8.40% to 9.25%** per annum. Here’s a comprehensive overview of the factors that influence these rates and how they might apply to you:
+
+### Types of Interest Rates:
+
+1. **Fixed Interest Rate**:
+   - The interest remains constant throughout the loan tenure.
+   - Provides predictability in monthly payments, which can be advantageous for budgeting.
+
+2. **Floating Interest Rate**:
+   - The interest rate may fluctuate based on market conditions linked to benchmarks such as EBLR (External Benchmark Lending Rate) or the Repo Rate set by the Reserve Bank of India.
+   - This type can lead to lower interest costs if market rates decrease.
+
+### Factors Influencing Home Loan Interest Rates:
+
+1. **Credit Score**:
+   - A higher credit score (preferably above **700**) indicates good creditworthiness and often qualifies you for lower interest rates. Lenders assess your credit history to determine the risk.
+
+2. **Income Level**:
+   - Your monthly income affects eligibility and the rates offered. A stable and higher income can lead to better loan terms.
+
+3. **Loan Amount and Tenure**:
+   - The size of the loan and its repayment period can influence the interest rates. Larger loans or longer tenures may carry different rates.
+
+4. **Market Conditions**:
+   - Economic factors such as inflation, liquidity in the market, and RBI monetary policy play crucial roles in determining interest rates. Fluctuations in these areas can lead to changes in the rates offered by banks.
+
+5. **Type of Property**:
+   - The purpose of the loan (purchase, construction, or renovation) and the type of property (self-occupied or investment) can impact the rates as well.
+
+6. **Processing Fees**:
+   - Besides interest rates, be aware of processing fees and other charges that can impact the overall cost of borrowing.
+
+### Home Loan Products Offered:
+XYZ Bank provides a variety of home loan options, including:
+- **Standard Home Loans** for purchasing or constructing homes.
+- **Home Improvement Loans** designed specifically for renovations.
+- **Ghar Jodi Loans** for builder properties.
+
+### Additional Considerations:
+- **Down Payment**: Lenders typically require a certain percentage of the property value as a down payment (usually 10% to 20%).
+- **Documentation**: Required documents include proof of identity, income, ownership, and property details.
+
+### Conclusion:
+It is advisable to consult with a banking advisor for personalized assistance based on your specific financial situation. They can provide guidance on which loan products suit your needs and help you understand how to maximize your eligibility for favorable rates.
+
+For real-time information, visiting XYZ Bank's official website or using their loan calculators can also help in making informed decisions.
+
+_Disclaimer: Educational purposes only._
+2026-04-25 07:14:54,721 UTC - INFO - User query: exit
+2026-04-25 07:14:54,722 UTC - INFO - User requested to exit.
+2026-04-25 16:49:37,234 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-25 16:49:37,719 UTC - INFO - XYZ Bank Chatbot initialized and ready to receive queries.
+2026-04-25 16:49:37,720 UTC - INFO - Session ID: ba7dfd65510643c3
+2026-04-25 16:50:24,252 UTC - INFO - User query: PPF interest rate
+2026-04-25 16:50:26,621 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-25 16:50:26,649 UTC - INFO - Intent classification raw output: content='{"category":"general_faq","confidence":0.92,"feedback":null}' additional_kwargs={'parsed': IntentTag(category='general_faq', confidence=0.92, feedback=None), 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 17, 'prompt_tokens': 581, 'total_tokens': 598, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_provider': 'openai', 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_888e567758', 'id': 'chatcmpl-DYaV0KhqPQVMld2ri1GfJ7SFRXoC2', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None} id='lc_run--019dc58c-adca-7f12-aef5-ffc681a0bfe8-0' tool_calls=[] invalid_tool_calls=[] usage_metadata={'input_tokens': 581, 'output_tokens': 17, 'total_tokens': 598, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}
+2026-04-25 16:50:26,649 UTC - INFO - Intent classification parsed output: <class 'models.IntentTag'>
+2026-04-25 16:50:26,649 UTC - INFO - Intent classification result: {'intent': 'general_faq', 'confidence_score': 0.92, 'feedback': None}
+2026-04-25 16:50:26,656 UTC - INFO - Feedback loaded for session ba7dfd65510643c3
+2026-04-25 16:50:31,955 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-25 16:50:32,269 UTC - INFO - Agent Action: Using tool 'advisory_engine' with input '{'query': 'PPF interest rate', 'intent': 'general_faq'}'
+2026-04-25 16:50:33,376 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-25 16:50:33,392 UTC - INFO - Retrieved chunk from rag_data/faqs.pdf (page 0):
+2026-04-25 16:50:33,392 UTC - INFO - Retrieved chunk from rag_data/faqs.pdf (page 0):
+2026-04-25 16:50:33,392 UTC - INFO - Retrieved chunk from rag_data/faqs.pdf (page 0):
+2026-04-25 16:50:36,269 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-25 16:50:36,278 UTC - INFO - Advisory engine result: advice="The current Public Provident Fund (PPF) interest rate is set by the government and is revised quarterly. As of the last update, the interest rate for PPF is typically around 7.1% per annum, compounded annually. I recommend checking the official government website or our bank's resources for the most current rates."
+2026-04-25 16:50:37,562 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-25 16:50:45,792 UTC - INFO - Agent Final Answer: The current interest rate for the Public Provident Fund (PPF) is set by the government and is typically around **7.1% per annum**, compounded annually. Here’s a more detailed overview of PPF and its interest rates:
+
+### Key Features of PPF:
+
+1. **Government-Backed**: 
+   - PPF is a long-term savings scheme backed by the Government of India, making it a safe investment option with guaranteed returns.
+
+2. **Interest Calculation**:
+   - Interest is calculated on the lowest balance in the account between the 5th and the end of the month. This means that depositing funds before the 5th of each month can help you maximize your interest earnings.
+
+3. **Compounding**:
+   - The interest earned is compounded annually, which means you earn interest not just on your initial investment but also on the interest accrued over time, enhancing the growth of your investment.
+
+4. **Tenure**:
+   - PPF has a lock-in period of **15 years**, which can be extended in blocks of 5 years after the maturity period. This makes it a great option for long-term savings.
+
+5. **Contribution Limit**:
+   - You can invest a minimum of ₹500 and a maximum of ₹1.5 lakh in a financial year. Contributions can be made in lump sums or in installments.
+
+6. **Withdrawal Rules**:
+   - Partial withdrawals are permitted every year after the completion of 5 financial years, subject to certain conditions. Full withdrawal is allowed at maturity after 15 years.
+
+7. **Tax Benefits**:
+   - Contributions made to a PPF account are eligible for deduction under Section 80C of the Income Tax Act, making it a tax-efficient investment option as well.
+
+### Changes in Interest Rates:
+- The interest rate for PPF is reviewed and updated quarterly by the government based on the prevailing economic conditions, so it’s essential to keep an eye on official announcements.
+
+### Recommendations:
+- For the latest rates and more details, you can check the official government website or consult our bank’s resources. If you are looking to open or manage a PPF account, visiting a local branch can provide personalized assistance.
+
+Investing in PPF can be an excellent strategy for long-term wealth accumulation while ensuring safety and tax benefits.
+
+_Disclaimer: Educational purposes only._
+2026-04-25 16:50:51,743 UTC - INFO - User query: exit
+2026-04-25 16:50:51,743 UTC - INFO - User requested to exit.
+2026-04-25 17:00:49,780 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-25 17:00:50,090 UTC - INFO - XYZ Bank Chatbot initialized and ready to receive queries.
+2026-04-25 17:00:50,091 UTC - INFO - Session ID: ba7dfd65510643c3
+2026-04-25 17:01:07,530 UTC - INFO - User query: Fixed deposita
+2026-04-25 17:01:10,642 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-25 17:01:10,662 UTC - INFO - Intent classification raw output: content='{"category":"investment_advice","confidence":0.85,"feedback":null}' additional_kwargs={'parsed': IntentTag(category='investment_advice', confidence=0.85, feedback=None), 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 17, 'prompt_tokens': 580, 'total_tokens': 597, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_provider': 'openai', 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_888e567758', 'id': 'chatcmpl-DYafNSPd5nPK8owJgNDcMy6h5hJ9X', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None} id='lc_run--019dc596-7e88-77a1-a8dc-02e2a656a026-0' tool_calls=[] invalid_tool_calls=[] usage_metadata={'input_tokens': 580, 'output_tokens': 17, 'total_tokens': 597, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}
+2026-04-25 17:01:10,662 UTC - INFO - Intent classification parsed output: <class 'models.IntentTag'>
+2026-04-25 17:01:10,663 UTC - INFO - Intent classification result: {'intent': 'investment_advice', 'confidence_score': 0.85, 'feedback': None}
+2026-04-25 17:01:10,669 UTC - INFO - Feedback loaded for session ba7dfd65510643c3
+2026-04-25 17:01:15,892 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-25 17:01:58,813 UTC - INFO - Agent Final Answer: Certainly! Here's a detailed overview of Fixed Deposits (FD) and the essential aspects associated with them:
+
+### What is a Fixed Deposit (FD)?
+A Fixed Deposit is a financial instrument offered by banks and financial institutions that allows individuals to deposit a lump sum amount for a predetermined tenure, earning a fixed rate of interest during that period. 
+
+### Key Features of Fixed Deposits:
+
+1. **Interest Rates**:
+   - The interest rate on Fixed Deposits typically ranges from **5% to 7.5%** per annum, depending on the tenure and the bank’s policies. Generally, longer tenures can attract higher interest rates.
+   - Interest can be compounded quarterly, monthly, or annually, depending on the bank's terms.
+
+2. **Tenure**:
+   - FDs can have varying tenures, typically ranging from **7 days to 10 years**. Investors choose the tenure based on their financial goals and liquidity needs.
+
+3. **Minimum and Maximum Deposit Amount**:
+   - The minimum amount required to open an FD may vary between banks but generally starts from around **₹1,000**. There is usually no maximum limit for deposits.
+
+4. **Maturity and Withdrawal**:
+   - Upon maturity, the principal amount along with the accumulated interest is returned to the depositor.
+   - Premature withdrawal is permitted, but it often incurs a penalty; the interest rate applicable may be lower than the originally agreed rate.
+
+5. **Tax Liabilities**:
+   - Interest earned on Fixed Deposits is subject to tax. Banks usually deduct TDS (Tax Deducted at Source) if the interest exceeds **₹40,000** in a financial year (for individual taxpayers).
+
+6. **Safety and Risk**:
+   - Fixed Deposits are considered low-risk investments as they are insured by the Deposit Insurance and Credit Guarantee Corporation (DICGC) up to ₹5 lakhs per depositor per bank.
+
+7. **Nomination**:
+   - FDs allow the option to nominate an individual who will receive the proceeds in the event of the depositor’s demise, ensuring financial security for beneficiaries.
+
+### Types of Fixed Deposits:
+1. **Regular Fixed Deposit**: Standard FD with fixed interest rates and tenure.
+2. **Tax-Saving Fixed Deposit**: Typically has a lock-in period of **5 years** and offers tax benefits under Section 80C of the Income Tax Act.
+3. **Cumulative Fixed Deposit**: Interest is compounded and paid at maturity, making it suitable for those looking for wealth accumulation.
+4. **Non-Cumulative Fixed Deposit**: Interest is paid out periodically (monthly, quarterly, etc.), providing regular income.
+
+### Choosing a Fixed Deposit:
+When selecting a Fixed Deposit, consider the following:
+- **Interest Rates**: Compare rates offered by different banks.
+- **Tenure Options**: Match the FD tenure with your financial goals.
+- **Bank Reputation**: Choose a bank with good customer service and reliability.
+- **Liquidity Needs**: Evaluate your need for access to funds in the short term.
+
+### Conclusion:
+Fixed Deposits are a popular choice for conservative investors looking for guaranteed returns and capital protection. They serve as an excellent tool for saving and financial planning. If you need more specific information, including current interest rates or terms, feel free to ask or check our bank's website.
+
+_Disclaimer: Educational purposes only._
+2026-04-25 17:02:09,442 UTC - INFO - User query: exit
+2026-04-25 17:02:09,443 UTC - INFO - User requested to exit.
+2026-04-25 17:06:42,583 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-25 17:06:42,799 UTC - INFO - XYZ Bank Chatbot initialized and ready to receive queries.
+2026-04-25 17:06:42,799 UTC - INFO - Session ID: ba7dfd65510643c3
+2026-04-25 17:06:49,497 UTC - INFO - User query: FD interest rates
+2026-04-25 17:06:50,896 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-25 17:06:50,914 UTC - INFO - Intent classification raw output: content='{"category":"investment_advice","confidence":0.92,"feedback":null}' additional_kwargs={'parsed': IntentTag(category='investment_advice', confidence=0.92, feedback=None), 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 17, 'prompt_tokens': 580, 'total_tokens': 597, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_provider': 'openai', 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_888e567758', 'id': 'chatcmpl-DYaksBYicSO1oEOZVekBiKYhCLVff', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None} id='lc_run--019dc59b-b656-7ea2-9b3a-b27ac8668279-0' tool_calls=[] invalid_tool_calls=[] usage_metadata={'input_tokens': 580, 'output_tokens': 17, 'total_tokens': 597, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}
+2026-04-25 17:06:50,914 UTC - INFO - Intent classification parsed output: <class 'models.IntentTag'>
+2026-04-25 17:06:50,915 UTC - INFO - Intent classification result: {'intent': 'investment_advice', 'confidence_score': 0.92, 'feedback': None}
+2026-04-25 17:06:50,921 UTC - INFO - Feedback loaded for session ba7dfd65510643c3
+2026-04-25 17:06:55,557 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-25 17:06:55,755 UTC - INFO - Agent Action: Using tool 'advisory_engine' with input '{'query': 'FD interest rates', 'intent': 'investment_advice'}'
+2026-04-25 17:06:56,596 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-25 17:06:56,608 UTC - INFO - Retrieved chunk from rag_data/investment_guide.pdf (page 0):
+2026-04-25 17:06:56,609 UTC - INFO - Retrieved chunk from rag_data/investment_guide.pdf (page 0):
+2026-04-25 17:06:56,609 UTC - INFO - Retrieved chunk from rag_data/investment_guide.pdf (page 0):
+2026-04-25 17:06:58,919 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-25 17:06:58,936 UTC - INFO - Advisory engine result: {'raw': AIMessage(content='{"advice":"Current Fixed Deposit (FD) interest rates range from 6.50% to 7.75% per annum, with senior citizens often receiving an extra 0.50% on their deposits. Note that the interest earned is taxable."}', additional_kwargs={'parsed': FinancialState(advice='Current Fixed Deposit (FD) interest rates range from 6.50% to 7.75% per annum, with senior citizens often receiving an extra 0.50% on their deposits. Note that the interest earned is taxable.'), 'refusal': None}, response_metadata={'token_usage': {'completion_tokens': 53, 'prompt_tokens': 854, 'total_tokens': 907, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_provider': 'openai', 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_a7190374f3', 'id': 'chatcmpl-DYakzTXYJcw2MQLW2aTnHD25cd3Vj', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None}, id='lc_run--019dc59b-d1e3-7881-b493-ecdefac63143-0', tool_calls=[], invalid_tool_calls=[], usage_metadata={'input_tokens': 854, 'output_tokens': 53, 'total_tokens': 907, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}), 'parsed': FinancialState(advice='Current Fixed Deposit (FD) interest rates range from 6.50% to 7.75% per annum, with senior citizens often receiving an extra 0.50% on their deposits. Note that the interest earned is taxable.'), 'parsing_error': None}
+2026-04-25 17:07:00,437 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-25 17:07:10,120 UTC - INFO - Agent Final Answer: The current Fixed Deposit (FD) interest rates at XYZ Bank range from **6.50% to 7.75%** per annum. Here’s a detailed overview of how these rates work and other important factors to consider:
+
+### Interest Rates Overview:
+
+1. **Standard Rates**:
+   - The basic interest rates on FDs vary between **6.50% and 7.75%** annually. The exact rate may depend on the tenure of the deposit and the amount invested.
+
+2. **Senior Citizens Benefits**:
+   - Senior citizens often receive an additional **0.50%** interest on their deposits. This makes FDs an attractive saving option for older adults looking to secure stable returns on their investments.
+
+3. **Compounding**:
+   - Interest on FDs is usually compounded quarterly. This means that the interest you earn is added to the principal amount at the end of every quarter, enhancing your overall returns.
+
+4. **Tenure**:
+   - Fixed Deposits can be set for various tenures ranging from **7 days to 10 years**. The interest rate may vary with the tenure; generally, longer-term deposits attract higher rates.
+
+5. **Tax Implications**:
+   - It’s important to note that the interest earned on FDs is taxable as per the individual's tax slab. If your total interest income exceeds **₹40,000** in a financial year (₹50,000 for senior citizens), the bank will deduct TDS (Tax Deducted at Source) at the applicable rate.
+
+### Additional Features:
+
+1. **Early Withdrawal**:
+   - While you can withdraw your FD prematurely, it usually incurs a penalty, and the interest rate may be lower than the originally guaranteed rate.
+
+2. **Nomination Facility**:
+   - You can nominate a beneficiary for your FD, ensuring that the funds are easily accessible to your chosen individual in case of unforeseen circumstances.
+
+3. **Multiple Accounts**:
+   - You can hold multiple FDs with varying tenures and amounts, helping diversify your investment and manage liquidity effectively.
+
+4. **Loan Against FD**:
+   - Most banks allow you to take a loan against your FD. This feature provides you with liquidity without breaking your deposit, generally at a lower interest rate.
+
+### Conclusion:
+Fixed Deposits are a low-risk investment option that provides guaranteed returns with the added benefit of safety. They are ideal for investors looking for stable income without exposure to market volatility. Always compare the rates offered by different banks and check for any promotional offers that may enhance your returns.
+
+For the most accurate and up-to-date information on interest rates, features, or to calculate returns based on different deposit amounts and tenures, feel free to reach out or check our official website. 
+
+_Disclaimer: Educational purposes only._
+2026-04-25 17:07:30,533 UTC - INFO - User query: exit
+2026-04-25 17:07:30,534 UTC - INFO - User requested to exit.
+2026-04-25 17:45:50,015 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-25 17:45:50,380 UTC - INFO - XYZ Bank Chatbot initialized and ready to receive queries.
+2026-04-25 17:45:50,380 UTC - INFO - Session ID: ba7dfd65510643c3
+2026-04-25 17:46:10,385 UTC - INFO - User query: home loan interest rate
+2026-04-25 17:46:12,218 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-25 17:46:12,247 UTC - INFO - Intent classification raw output: content='{"category":"loan_inquiry","confidence":0.92,"feedback":null}' additional_kwargs={'parsed': IntentTag(category='loan_inquiry', confidence=0.92, feedback=None), 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 17, 'prompt_tokens': 581, 'total_tokens': 598, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_provider': 'openai', 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_888e567758', 'id': 'chatcmpl-DYbMxUqffGZ6eanYeLbmgAkH0Sfch', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None} id='lc_run--019dc5bf-bc93-76f0-a028-c55e301818aa-0' tool_calls=[] invalid_tool_calls=[] usage_metadata={'input_tokens': 581, 'output_tokens': 17, 'total_tokens': 598, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}
+2026-04-25 17:46:12,247 UTC - INFO - Intent classification parsed output: <class 'models.IntentTag'>
+2026-04-25 17:46:12,247 UTC - INFO - Async function 'categorize_intent' executed in 1.800180 seconds
+2026-04-25 17:46:12,247 UTC - INFO - Intent classification result: {'intent': 'loan_inquiry', 'confidence_score': 0.92, 'feedback': None}
+2026-04-25 17:46:12,254 UTC - INFO - Feedback loaded for session ba7dfd65510643c3
+2026-04-25 17:46:15,085 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-25 17:46:25,765 UTC - INFO - Agent Final Answer: The current home loan interest rates at XYZ Bank range from **8.40% to 9.25%** per annum. This range can depend on various factors that influence how the rates are determined and what is offered to different borrowers. Here’s a detailed breakdown:
+
+### Components of Home Loan Interest Rates:
+
+1. **Type of Rate**:
+   - **Fixed Interest Rate**: Remains constant throughout the tenure of the loan, providing predictable monthly payments. This can be beneficial for budgeting.
+   - **Floating Interest Rate**: Rates vary with market conditions and are linked to benchmarks like the EBLR (External Benchmark Lending Rate) or Repo Rate. If market rates decrease, your rate may also reduce.
+
+2. **Credit Score**:
+   - A higher credit score (typically above **700**) demonstrates good creditworthiness, which can qualify you for lower interest rates. Lenders assess your credit history to gauge the risk associated with lending to you.
+   - If your score is lower, you may be offered a higher rate, or in some cases, might not qualify for a loan at all.
+
+3. **Loan Amount and Tenure**:
+   - The size of the home loan and the duration for repayment both affect rates. Larger loans and longer tenures can sometimes attract different interest calculations.
+   - Generally, banks offer better rates for larger loan amounts and longer tenures.
+
+4. **Economic Conditions**:
+   - Changes in the economy, inflation rates, and monetary policies set by the Reserve Bank of India (RBI) can lead to adjustments in interest rates offered by banks.
+
+5. **Type of Property**:
+   - The purpose of the loan (buying a new home, constructing a house, or refinancing an existing home) can influence the rate. Properties with higher valuation or those located in high-demand areas may get better rates.
+
+6. **Documentation and Processing Fees**:
+   - Certain documentation requirements and processing fees may apply when applying for a home loan. These fees can also influence the overall cost of taking out the loan.
+
+7. **Tenure Options**:
+   - Home loans typically come with tenures ranging from **5 to 30 years**. A longer tenure generally means lower EMIs but may increase the total interest paid over the loan period.
+
+### Additional Features:
+
+- **Prepayment Options**: Often, banks allow partial or full prepayment of the loan without significant penalties, which can decrease the total interest burden.
+  
+- **Insurance**: Many banks encourage or require borrowers to opt for insurance products that cover loan defaults, which can affect interest rates.
+
+### Conclusion:
+Home loans are a significant financial commitment, and understanding the components that influence interest rates can help you make informed decisions. It is advisable to consult with a banking advisor or use tools available on our website to calculate your EMI based on various loan amounts and tenures. This way, you can determine what works best for your financial situation.
+
+To stay updated on current rates or for personalized advice, visiting a branch or contacting customer support can also be beneficial.
+
+_Disclaimer: Educational purposes only._
+2026-04-25 17:46:25,769 UTC - INFO - Async function 'process_query' executed in 15.382759 seconds
+2026-04-25 17:46:30,193 UTC - INFO - User query: exit
+2026-04-25 17:46:30,193 UTC - INFO - User requested to exit.
+2026-04-25 17:52:24,418 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-25 17:52:25,418 UTC - INFO - XYZ Bank Chatbot initialized and ready to receive queries.
+2026-04-25 17:52:25,418 UTC - INFO - Session ID: ba7dfd65510643c3
+2026-04-25 17:52:40,168 UTC - INFO - User query: home loan interest rate
+2026-04-25 17:52:42,465 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-25 17:52:42,483 UTC - INFO - Intent classification raw output: content='{"category":"loan_inquiry","confidence":0.97,"feedback":null}' additional_kwargs={'parsed': IntentTag(category='loan_inquiry', confidence=0.97, feedback=None), 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 17, 'prompt_tokens': 581, 'total_tokens': 598, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_provider': 'openai', 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_888e567758', 'id': 'chatcmpl-DYbTFmzaVRu8YS6brQzqBEKPH7EVy', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None} id='lc_run--019dc5c5-af25-75d0-90d6-172bbd988b22-0' tool_calls=[] invalid_tool_calls=[] usage_metadata={'input_tokens': 581, 'output_tokens': 17, 'total_tokens': 598, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}
+2026-04-25 17:52:42,483 UTC - INFO - Intent classification parsed output: <class 'models.IntentTag'>
+2026-04-25 17:52:42,484 UTC - INFO - Async function 'categorize_intent' executed in 2.257458 seconds
+2026-04-25 17:52:42,484 UTC - INFO - Intent classification result: {'intent': 'loan_inquiry', 'confidence_score': 0.97, 'feedback': None}
+2026-04-25 17:52:42,490 UTC - INFO - Feedback loaded for session ba7dfd65510643c3
+2026-04-25 17:52:43,618 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-25 17:52:53,262 UTC - INFO - Agent Final Answer: The current home loan interest rates at XYZ Bank range from **8.40% to 9.25%** per annum. Here's a comprehensive overview of the factors influencing home loan interest rates:
+
+### Types of Home Loan Interest Rates:
+
+1. **Fixed Interest Rate**:
+   - The interest rate remains constant throughout the loan tenure. This stability can help in budgeting as your EMI (Equated Monthly Installment) remains unchanged over the term of the loan.
+
+2. **Floating Interest Rate**:
+   - The interest rate can fluctuate based on market conditions and is typically linked to the Repo Rate or the External Benchmark Lending Rate (EBLR). This means that if the market rates change, your interest rate may increase or decrease, affecting your EMIs.
+
+### Factors Affecting Home Loan Interest Rates:
+
+1. **Credit Score**:
+   - A higher credit score (preferably above **700**) indicates good creditworthiness to lenders, potentially qualifying you for lower interest rates. Borrowers with lower credit scores may face higher rates or might be denied the loan altogether.
+
+2. **Loan Amount**:
+   - The amount you wish to borrow affects the interest rate. Generally, larger loan amounts may qualify for slightly lower rates due to economies of scale that banks can achieve.
+
+3. **Loan Tenure**:
+   - Home loan tenures can range from **5 to 30 years**. Typically, longer tenures may result in lower EMIs, but you might end up paying more in total interest over the life of the loan.
+
+4. **Income and Employment Stability**:
+   - Your income level and job stability play a significant role in determining eligibility and interest rates. Lenders prefer applicants with stable jobs and consistent income streams, as this reduces their risk.
+
+5. **Economic Conditions**:
+   - Home loan interest rates are influenced by overall economic factors, including inflation rates, changes in RBI monetary policy, and market liquidity. Economic downturns can lead to lower rates as banks compete for borrowers.
+
+6. **Type of Property**:
+   - The purpose of the home loan (i.e., purchasing a new home, constructing a house, buying a property for investment) and the property’s location can influence rates. Properties in urban areas or high-demand regions may attract different rates compared to rural properties.
+
+7. **Bank Policies**:
+   - Different banks have varying policies regarding risk assessment, customer acquisition, and pricing. As a result, it's always a good idea to compare rates from multiple lenders.
+
+### Additional Considerations:
+
+- **Prepayment and Foreclosure**: 
+   - Many banks allow borrowers to prepay a portion of the loan or foreclose it entirely without incurring hefty penalties, which can reduce overall interest. However, it is essential to check with your bank for specific prepayment conditions.
+
+- **Processing Fees**: 
+   - Banks typically charge processing fees for home loans, which can range from **0.50% to 1%** of the loan amount. This fee is a one-time charge for processing the loan application.
+
+- **Tax Benefits**: 
+   - Under Section 80C and Section 24(b) of the Income Tax Act, borrowers can avail of tax deductions on principal repayment and interest payments, respectively.
+
+### Conclusion:
+When considering a home loan, it's crucial to understand the various parameters affecting interest rates. Conduct thorough research, compare different lenders, and assess your financial situation before making a decision. Consulting with a banking advisor can provide personalized guidance to ensure you choose the best option for your needs.
+
+For the most current rates and an estimation of your EMI, it's advisable to use the loan calculator available on our website or visit a branch for comprehensive assistance.
+
+_Disclaimer: Educational purposes only._
+2026-04-25 17:52:53,267 UTC - INFO - Async function 'process_query' executed in 13.097475 seconds
+2026-04-25 17:52:56,681 UTC - INFO - User query: exit
+2026-04-25 17:52:56,681 UTC - INFO - User requested to exit.
+2026-04-25 17:54:17,055 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-25 17:54:17,448 UTC - INFO - XYZ Bank Chatbot initialized and ready to receive queries.
+2026-04-25 17:54:17,448 UTC - INFO - Session ID: ba7dfd65510643c3
+2026-04-25 17:54:28,757 UTC - INFO - User query: minimum balance
+2026-04-25 17:54:30,218 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-25 17:54:30,234 UTC - INFO - Intent classification raw output: content='{"category":"account_info","confidence":0.97,"feedback":null}' additional_kwargs={'parsed': IntentTag(category='account_info', confidence=0.97, feedback=None), 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 16, 'prompt_tokens': 579, 'total_tokens': 595, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_provider': 'openai', 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_888e567758', 'id': 'chatcmpl-DYbUzy3FZrl59GLpUglTsiZOcaU9e', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None} id='lc_run--019dc5c7-574f-7cf2-9bb9-3a755764903f-0' tool_calls=[] invalid_tool_calls=[] usage_metadata={'input_tokens': 579, 'output_tokens': 16, 'total_tokens': 595, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}
+2026-04-25 17:54:30,234 UTC - INFO - Intent classification parsed output: <class 'models.IntentTag'>
+2026-04-25 17:54:30,235 UTC - INFO - Async function 'categorize_intent' executed in 1.422864 seconds
+2026-04-25 17:54:30,235 UTC - INFO - Intent classification result: {'intent': 'account_info', 'confidence_score': 0.97, 'feedback': None}
+2026-04-25 17:54:30,241 UTC - INFO - Feedback loaded for session ba7dfd65510643c3
+2026-04-25 17:54:34,197 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-25 17:54:34,441 UTC - INFO - Agent Action: Using tool 'advisory_engine' with input '{'query': 'minimum balance', 'intent': 'account_info'}'
+2026-04-25 17:54:36,192 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-25 17:54:37,825 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-25 17:54:37,838 UTC - INFO - Advisory engine result: {'raw': AIMessage(content='{"advice":"To find information about the minimum balance requirements for your account, please check the \'Account Overview\' section in our app, where you can view details about your specific account type."}', additional_kwargs={'parsed': FinancialState(advice="To find information about the minimum balance requirements for your account, please check the 'Account Overview' section in our app, where you can view details about your specific account type."), 'refusal': None}, response_metadata={'token_usage': {'completion_tokens': 40, 'prompt_tokens': 476, 'total_tokens': 516, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_provider': 'openai', 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_ff247d5857', 'id': 'chatcmpl-DYbV6CyUfCmbxy2RxGVnII2XEm9NX', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None}, id='lc_run--019dc5c7-7438-7980-88a3-f9dd280b6708-0', tool_calls=[], invalid_tool_calls=[], usage_metadata={'input_tokens': 476, 'output_tokens': 40, 'total_tokens': 516, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}), 'parsed': FinancialState(advice="To find information about the minimum balance requirements for your account, please check the 'Account Overview' section in our app, where you can view details about your specific account type."), 'parsing_error': None}
+2026-04-25 17:54:42,564 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-25 17:54:49,840 UTC - INFO - Agent Final Answer: To find information about the minimum balance requirements for your account at XYZ Bank, it's best to refer to the **'Account Overview'** section in our mobile banking app. This section will provide specific details about:
+
+1. **Minimum Balance Requirement**: The minimum balance required for different types of accounts (savings, current, etc.).
+2. **Account Type**: Information may vary based on whether you have a regular savings account, an operational current account, or a premium account.
+3. **Fees and Penalties**: If the minimum balance is not maintained, there may be penalties or service charges that apply. 
+
+### General Information on Minimum Balance:
+
+1. **Savings Accounts**: Typically require a minimum balance ranging from **₹1,000 to ₹10,000**, depending on the type of savings account you hold.
+2. **Current Accounts**: Usually have a higher minimum balance requirement, often starting around **₹10,000** or more.
+3. **Premium or Special Accounts**: Some accounts offer more flexibility or lower minimum balance requirements if certain conditions are met (like monthly deposits or maintaining a higher average balance).
+
+4. **Benefits of Maintaining Minimum Balance**:
+   - Avoid monthly maintenance fees.
+   - Maintain account privileges such as free ATM withdrawals, online banking, and other services.
+
+### Next Steps:
+- Open the XYZ Bank app to check your account specifics or contact customer support for detailed assistance regarding your particular account type.
+- Review any recent communications from the bank, as policies and requirements can sometimes change.
+
+By keeping these considerations in mind, you can ensure compliance with your account's minimum balance requirements and avoid potential fees.
+
+_Disclaimer: Educational purposes only._
+2026-04-25 17:54:49,845 UTC - INFO - Async function 'process_query' executed in 21.086397 seconds
+2026-04-25 17:54:52,726 UTC - INFO - User query: exit
+2026-04-25 17:54:52,727 UTC - INFO - User requested to exit.
+2026-04-26 06:27:50,729 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-26 06:27:51,375 UTC - INFO - XYZ Bank Chatbot initialized and ready to receive queries.
+2026-04-26 06:27:51,376 UTC - INFO - Session ID: ba7dfd65510643c3
+2026-04-26 06:30:11,549 UTC - INFO - User query: tell me about cryptocurrency
+2026-04-26 06:30:11,557 UTC - WARNING - Warning: Guardrail pre-check failed: request appears out of scope: cryptocurrency
+2026-04-26 06:30:19,620 UTC - INFO - User query: exit
+2026-04-26 06:30:19,620 UTC - INFO - User requested to exit.
+2026-04-26 06:43:12,940 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-26 06:44:40,011 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-26 06:44:40,222 UTC - INFO - XYZ Bank Chatbot initialized and ready to receive queries.
+2026-04-26 06:44:40,222 UTC - INFO - Session ID: ba7dfd65510643c3
+2026-04-26 06:45:13,428 UTC - INFO - User query: what are best options of investing in cryptocurrencies?
+2026-04-26 06:45:13,446 UTC - WARNING - Warning: Guardrail pre-check failed: request appears out of scope: what are best options of investing in cryptocurrencies?
+2026-04-26 06:45:28,332 UTC - INFO - User query: exit
+2026-04-26 06:45:28,334 UTC - INFO - User requested to exit.
+2026-04-26 06:47:25,769 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-26 06:47:25,979 UTC - INFO - XYZ Bank Chatbot initialized and ready to receive queries.
+2026-04-26 06:47:25,979 UTC - INFO - Session ID: ba7dfd65510643c3
+2026-04-26 06:48:17,060 UTC - INFO - User query: what are the available risk free investment options? 
+2026-04-26 06:48:19,431 UTC - WARNING - Warning: Guardrail pre-check failed: request appears out of scope: what are the available risk free investment options? 
+2026-04-26 06:48:29,036 UTC - INFO - User query: exit
+2026-04-26 06:48:29,038 UTC - INFO - User requested to exit.
+2026-04-26 06:52:48,499 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-26 06:52:48,715 UTC - INFO - XYZ Bank Chatbot initialized and ready to receive queries.
+2026-04-26 06:52:48,715 UTC - INFO - Session ID: ba7dfd65510643c3
+2026-04-26 06:53:12,749 UTC - INFO - User query: home loan interest rates
+2026-04-26 06:53:14,423 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-26 06:53:14,444 UTC - ERROR - Error: Error during intent classification: 'dict' object has no attribute 'dict'
+2026-04-26 06:53:14,444 UTC - INFO - Async function 'categorize_intent' executed in 1.529421 seconds
+2026-04-26 06:53:14,444 UTC - INFO - Intent classification result: {'intent': 'unknown', 'confidence_score': 0.0, 'feedback': None}
+2026-04-26 06:53:14,445 UTC - WARNING - Warning: Low confidence in intent classification: {'intent': 'unknown', 'confidence_score': 0.0, 'feedback': None}
+2026-04-26 06:53:14,445 UTC - INFO - Async function 'process_query' executed in 1.675263 seconds
+2026-04-26 07:02:29,013 UTC - INFO - User query: exit
+2026-04-26 07:02:29,014 UTC - INFO - User requested to exit.
+2026-04-26 07:22:41,576 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-26 07:22:42,488 UTC - INFO - XYZ Bank Chatbot initialized and ready to receive queries.
+2026-04-26 07:22:42,488 UTC - INFO - Session ID: ba7dfd65510643c3
+2026-04-26 07:23:20,125 UTC - INFO - User query: guaranteed return investment options
+2026-04-26 07:23:20,163 UTC - WARNING - Warning: Guardrail pre-check failed: Request appears out of scope: avoid topics related to guaranteed return.
+2026-04-26 07:23:36,181 UTC - INFO - User query: exit
+2026-04-26 07:23:36,183 UTC - INFO - User requested to exit.
+2026-04-26 07:28:49,032 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-26 07:28:49,483 UTC - INFO - XYZ Bank Chatbot initialized and ready to receive queries.
+2026-04-26 07:28:49,483 UTC - INFO - Session ID: ba7dfd65510643c3
+2026-04-26 07:29:08,173 UTC - INFO - User query: home loan interest rates
+2026-04-26 07:29:10,719 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-26 07:29:10,738 UTC - INFO - Intent classification raw output: content='{"category":"loan_inquiry","confidence":0.95,"feedback":null}' additional_kwargs={'parsed': IntentTag(category='loan_inquiry', confidence=0.95, feedback=None), 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 17, 'prompt_tokens': 581, 'total_tokens': 598, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_provider': 'openai', 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_888e567758', 'id': 'chatcmpl-DYoDNMO1b3qEr5z2UTkwVmwpBzpEy', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None} id='lc_run--019dc8b1-2ec4-7b91-a51d-87e9d6cd4446-0' tool_calls=[] invalid_tool_calls=[] usage_metadata={'input_tokens': 581, 'output_tokens': 17, 'total_tokens': 598, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}
+2026-04-26 07:29:10,738 UTC - INFO - Intent classification parsed output: <class 'models.IntentTag'>
+2026-04-26 07:29:10,738 UTC - INFO - Async function 'categorize_intent' executed in 2.449931 seconds
+2026-04-26 07:29:10,738 UTC - INFO - Intent classification result: {'intent': 'loan_inquiry', 'confidence_score': 0.95, 'feedback': None}
+2026-04-26 07:29:10,746 UTC - INFO - Feedback loaded for session ba7dfd65510643c3
+2026-04-26 07:29:12,842 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-26 07:29:13,209 UTC - INFO - Agent Final Answer: Home loan interest rates: **8.40% - 9.25%**.
+
+_Disclaimer: Educational purposes only._
+2026-04-26 07:29:13,216 UTC - INFO - Async function 'process_query' executed in 5.022604 seconds
+2026-04-26 07:29:18,373 UTC - INFO - User query: exit
+2026-04-26 07:29:18,375 UTC - INFO - User requested to exit.
+2026-04-26 07:34:20,560 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-26 07:34:20,877 UTC - INFO - XYZ Bank Chatbot initialized and ready to receive queries.
+2026-04-26 07:34:20,878 UTC - INFO - Session ID: ba7dfd65510643c3
+2026-04-26 07:34:28,341 UTC - INFO - User query: lost my card please help
+2026-04-26 07:34:31,071 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-26 07:34:31,094 UTC - INFO - Intent classification raw output: content='{"category":"human_handoff","confidence":0.95,"feedback":null}' additional_kwargs={'parsed': IntentTag(category='human_handoff', confidence=0.95, feedback=None), 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 17, 'prompt_tokens': 582, 'total_tokens': 599, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_provider': 'openai', 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_888e567758', 'id': 'chatcmpl-DYoIXkMGMuH7Q9kMsWbQfDmfcWVJ1', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None} id='lc_run--019dc8b6-1192-73e1-96d8-aa1572e95f32-0' tool_calls=[] invalid_tool_calls=[] usage_metadata={'input_tokens': 582, 'output_tokens': 17, 'total_tokens': 599, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}
+2026-04-26 07:34:31,094 UTC - INFO - Intent classification parsed output: <class 'models.IntentTag'>
+2026-04-26 07:34:31,095 UTC - INFO - Async function 'categorize_intent' executed in 2.601784 seconds
+2026-04-26 07:34:31,095 UTC - INFO - Intent classification result: {'intent': 'human_handoff', 'confidence_score': 0.95, 'feedback': None}
+2026-04-26 07:34:31,102 UTC - INFO - Feedback loaded for session ba7dfd65510643c3
+2026-04-26 07:34:33,148 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-26 07:34:33,656 UTC - INFO - Agent Final Answer: I recommend you contact our customer service immediately to report the lost card and request a block on it. They can assist you in issuing a replacement card as well.
+
+_Disclaimer: Educational purposes only._
+2026-04-26 07:34:33,665 UTC - INFO - Async function 'process_query' executed in 5.271218 seconds
+2026-04-26 07:35:34,054 UTC - INFO - User query: any contact number for reporting loast card?
+2026-04-26 07:35:35,350 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-26 07:35:35,365 UTC - INFO - Intent classification raw output: content='{"category":"general_faq","confidence":0.92,"feedback":null}' additional_kwargs={'parsed': IntentTag(category='general_faq', confidence=0.92, feedback=None), 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 17, 'prompt_tokens': 586, 'total_tokens': 603, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_provider': 'openai', 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_888e567758', 'id': 'chatcmpl-DYoJaaqCdO35uDbOHc7RZDCSwO99v', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None} id='lc_run--019dc8b7-11ab-7023-bea0-1d7f69268f28-0' tool_calls=[] invalid_tool_calls=[] usage_metadata={'input_tokens': 586, 'output_tokens': 17, 'total_tokens': 603, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}
+2026-04-26 07:35:35,365 UTC - INFO - Intent classification parsed output: <class 'models.IntentTag'>
+2026-04-26 07:35:35,365 UTC - INFO - Async function 'categorize_intent' executed in 1.306749 seconds
+2026-04-26 07:35:35,365 UTC - INFO - Intent classification result: {'intent': 'general_faq', 'confidence_score': 0.92, 'feedback': None}
+2026-04-26 07:35:35,373 UTC - INFO - Feedback loaded for session ba7dfd65510643c3
+2026-04-26 07:35:37,014 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-26 07:35:37,305 UTC - INFO - Agent Action: Using tool 'advisory_engine' with input '{'query': 'contact number for reporting lost card', 'intent': 'general_faq'}'
+2026-04-26 07:35:37,315 UTC - ERROR - Error: Advisory engine exception: module 'qdrant_client.http.models.models' has no attribute 'Filte'
+Traceback (most recent call last):
+  File "C:\iitm_pravartak\Capstone\Phase 8\advisory_engine.py", line 44, in advisory_engine
+    "filter": rest.Filte(
+              ^^^^^^^^^^
+AttributeError: module 'qdrant_client.http.models.models' has no attribute 'Filte'. Did you mean: 'Filter'?
+
+2026-04-26 07:35:37,324 UTC - ERROR - Error: Error during agent execution: module 'qdrant_client.http.models.models' has no attribute 'Filte'
+Traceback (most recent call last):
+  File "C:\iitm_pravartak\Capstone\Phase 8\main.py", line 74, in process_query
+    response = await agent_executor.ainvoke(args)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\iitm_pravartak\Capstone\capstone\Lib\site-packages\langchain_classic\chains\base.py", line 222, in ainvoke
+    await self._acall(inputs, run_manager=run_manager)
+  File "c:\iitm_pravartak\Capstone\capstone\Lib\site-packages\langchain_classic\agents\agent.py", line 1646, in _acall
+    next_step_output = await self._atake_next_step(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "c:\iitm_pravartak\Capstone\capstone\Lib\site-packages\langchain_classic\agents\agent.py", line 1428, in _atake_next_step
+    [
+    ^
+    ...<8 lines>...
+    ],
+    ^
+  File "c:\iitm_pravartak\Capstone\capstone\Lib\site-packages\langchain_classic\agents\agent.py", line 1511, in _aiter_next_step
+    result = await asyncio.gather(
+             ^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "c:\iitm_pravartak\Capstone\capstone\Lib\site-packages\langchain_classic\agents\agent.py", line 1549, in _aperform_agent_action
+    observation = await tool.arun(
+                  ^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "c:\iitm_pravartak\Capstone\capstone\Lib\site-packages\langchain_core\tools\base.py", line 1131, in arun
+    raise error_to_raise
+  File "c:\iitm_pravartak\Capstone\capstone\Lib\site-packages\langchain_core\tools\base.py", line 1097, in arun
+    response = await coro_with_context(coro, context)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\iitm_pravartak\Capstone\capstone\Lib\site-packages\langchain_core\tools\structured.py", line 124, in _arun
+    return await self.coroutine(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\iitm_pravartak\Capstone\capstone\Lib\site-packages\langsmith\run_helpers.py", line 631, in async_wrapper
+    function_result = await asyncio.create_task(  # type: ignore[call-arg]
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        fr_coro, context=run_container["context"]
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\iitm_pravartak\Capstone\Phase 8\advisory_engine.py", line 44, in advisory_engine
+    "filter": rest.Filte(
+              ^^^^^^^^^^
+AttributeError: module 'qdrant_client.http.models.models' has no attribute 'Filte'. Did you mean: 'Filter'?
+
+2026-04-26 07:35:37,325 UTC - INFO - Async function 'process_query' executed in 3.269755 seconds
+2026-04-26 07:35:42,702 UTC - INFO - User query: exit
+2026-04-26 07:35:42,704 UTC - INFO - User requested to exit.
+2026-04-26 07:39:34,865 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-26 07:39:35,081 UTC - INFO - XYZ Bank Chatbot initialized and ready to receive queries.
+2026-04-26 07:39:35,081 UTC - INFO - Session ID: ba7dfd65510643c3
+2026-04-26 07:39:47,213 UTC - INFO - User query: lost my card what should I do?
+2026-04-26 07:39:48,713 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-26 07:39:48,729 UTC - INFO - Intent classification raw output: content='{"category":"general_faq","confidence":0.92,"feedback":null}' additional_kwargs={'parsed': IntentTag(category='general_faq', confidence=0.92, feedback=None), 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 17, 'prompt_tokens': 585, 'total_tokens': 602, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_provider': 'openai', 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_888e567758', 'id': 'chatcmpl-DYoNfp9EEkDY3LyNXC4jV8aq76hCe', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None} id='lc_run--019dc8ba-eefc-75a3-a59c-6ad268eb4089-0' tool_calls=[] invalid_tool_calls=[] usage_metadata={'input_tokens': 585, 'output_tokens': 17, 'total_tokens': 602, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}
+2026-04-26 07:39:48,729 UTC - INFO - Intent classification parsed output: <class 'models.IntentTag'>
+2026-04-26 07:39:48,730 UTC - INFO - Async function 'categorize_intent' executed in 1.408726 seconds
+2026-04-26 07:39:48,730 UTC - INFO - Intent classification result: {'intent': 'general_faq', 'confidence_score': 0.92, 'feedback': None}
+2026-04-26 07:39:48,736 UTC - INFO - Feedback loaded for session ba7dfd65510643c3
+2026-04-26 07:39:52,706 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-26 07:39:55,101 UTC - INFO - Agent Final Answer: 1. **Contact Customer Service**: Report the lost card immediately.
+2. **Block the Card**: Request them to block the card to prevent unauthorized use.
+3. **Request a Replacement**: Ask for a new card to be issued.
+
+You can also use the mobile banking app to block the card directly.
+
+_Disclaimer: Educational purposes only._
+2026-04-26 07:39:55,105 UTC - INFO - Async function 'process_query' executed in 7.875027 seconds
+2026-04-26 07:40:33,237 UTC - INFO - User query: exit
+2026-04-26 07:40:33,238 UTC - INFO - User requested to exit.
+2026-04-26 07:41:23,969 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-26 07:41:24,182 UTC - INFO - XYZ Bank Chatbot initialized and ready to receive queries.
+2026-04-26 07:41:24,182 UTC - INFO - Session ID: ba7dfd65510643c3
+2026-04-26 07:42:08,241 UTC - INFO - User query: lost my card
+2026-04-26 07:42:11,108 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-26 07:42:11,126 UTC - INFO - Intent classification raw output: content='{"category":"general_faq","confidence":0.92,"feedback":null}' additional_kwargs={'parsed': IntentTag(category='general_faq', confidence=0.92, feedback=None), 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 17, 'prompt_tokens': 580, 'total_tokens': 597, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_provider': 'openai', 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_888e567758', 'id': 'chatcmpl-DYoPxjjEe6XKUROquD9Gcm8FFdRuB', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None} id='lc_run--019dc8bd-15ea-72d3-b43b-947de7efab58-0' tool_calls=[] invalid_tool_calls=[] usage_metadata={'input_tokens': 580, 'output_tokens': 17, 'total_tokens': 597, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}
+2026-04-26 07:42:11,126 UTC - INFO - Intent classification parsed output: <class 'models.IntentTag'>
+2026-04-26 07:42:11,126 UTC - INFO - Async function 'categorize_intent' executed in 2.766976 seconds
+2026-04-26 07:42:11,126 UTC - INFO - Intent classification result: {'intent': 'general_faq', 'confidence_score': 0.92, 'feedback': None}
+2026-04-26 07:42:11,133 UTC - INFO - Feedback loaded for session ba7dfd65510643c3
+2026-04-26 07:42:12,844 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-26 07:42:14,093 UTC - INFO - Agent Final Answer: 1. Contact customer service to report the lost card.
+2. Request to block the card.
+3. Ask for a replacement card.
+
+_Disclaimer: Educational purposes only._
+2026-04-26 07:42:14,099 UTC - INFO - Async function 'process_query' executed in 5.841161 seconds
+2026-04-26 07:42:19,789 UTC - INFO - User query: exit
+2026-04-26 07:42:19,791 UTC - INFO - User requested to exit.
+2026-04-26 07:45:13,075 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-26 07:45:13,289 UTC - INFO - XYZ Bank Chatbot initialized and ready to receive queries.
+2026-04-26 07:45:13,289 UTC - INFO - Session ID: ba7dfd65510643c3
+2026-04-26 07:45:28,886 UTC - INFO - User query: I have lost my card
+2026-04-26 07:45:30,425 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-26 07:45:30,441 UTC - INFO - Intent classification raw output: content='{"category":"general_faq","confidence":0.90,"feedback":null}' additional_kwargs={'parsed': IntentTag(category='general_faq', confidence=0.9, feedback=None), 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 17, 'prompt_tokens': 582, 'total_tokens': 599, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_provider': 'openai', 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_888e567758', 'id': 'chatcmpl-DYoTB7h6sXPD0VkJu2spk43CERPFk', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None} id='lc_run--019dc8c0-25ab-7a60-a3a1-d62ffa65085e-0' tool_calls=[] invalid_tool_calls=[] usage_metadata={'input_tokens': 582, 'output_tokens': 17, 'total_tokens': 599, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}
+2026-04-26 07:45:30,441 UTC - INFO - Intent classification parsed output: <class 'models.IntentTag'>
+2026-04-26 07:45:30,442 UTC - INFO - Async function 'categorize_intent' executed in 1.441265 seconds
+2026-04-26 07:45:30,442 UTC - INFO - Intent classification result: {'intent': 'general_faq', 'confidence_score': 0.9, 'feedback': None}
+2026-04-26 07:45:30,448 UTC - INFO - Feedback loaded for session ba7dfd65510643c3
+2026-04-26 07:45:37,241 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-26 07:45:38,186 UTC - INFO - Agent Final Answer: 1. Contact customer service to report the loss.
+2. Block the card immediately.
+3. Request a replacement card.
+
+_Disclaimer: Educational purposes only._
+2026-04-26 07:45:38,191 UTC - INFO - Async function 'process_query' executed in 9.288624 seconds
+2026-04-26 07:45:55,293 UTC - INFO - User query: exit
+2026-04-26 07:45:55,294 UTC - INFO - User requested to exit.
+2026-04-26 07:46:24,113 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-26 07:46:24,328 UTC - INFO - XYZ Bank Chatbot initialized and ready to receive queries.
+2026-04-26 07:46:24,328 UTC - INFO - Session ID: ba7dfd65510643c3
+2026-04-26 07:46:30,469 UTC - INFO - User query: lost my card please help
+2026-04-26 07:46:32,755 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-26 07:46:32,771 UTC - INFO - Intent classification raw output: content='{"category":"human_handoff","confidence":0.97,"feedback":null}' additional_kwargs={'parsed': IntentTag(category='human_handoff', confidence=0.97, feedback=None), 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 17, 'prompt_tokens': 582, 'total_tokens': 599, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_provider': 'openai', 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_888e567758', 'id': 'chatcmpl-DYoUCUXwH7wBjIpjVyuE9zDcZoWWs', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None} id='lc_run--019dc8c1-1641-71f2-8d10-072b5dc76f6a-0' tool_calls=[] invalid_tool_calls=[] usage_metadata={'input_tokens': 582, 'output_tokens': 17, 'total_tokens': 599, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}
+2026-04-26 07:46:32,772 UTC - INFO - Intent classification parsed output: <class 'models.IntentTag'>
+2026-04-26 07:46:32,772 UTC - INFO - Async function 'categorize_intent' executed in 2.181513 seconds
+2026-04-26 07:46:32,772 UTC - INFO - Intent classification result: {'intent': 'human_handoff', 'confidence_score': 0.97, 'feedback': None}
+2026-04-26 07:46:32,777 UTC - INFO - Feedback loaded for session ba7dfd65510643c3
+2026-04-26 07:46:34,234 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-26 07:46:36,010 UTC - INFO - Agent Action: Using tool 'advisory_engine' with input '{'query': 'lost my card', 'intent': 'human_handoff'}'
+2026-04-26 07:46:36,015 UTC - ERROR - Error: Advisory engine exception: module 'qdrant_client.http.models.models' has no attribute 'Filte'
+Traceback (most recent call last):
+  File "C:\iitm_pravartak\Capstone\Phase 8\advisory_engine.py", line 44, in advisory_engine
+    "filter": rest.Filte(
+              ^^^^^^^^^^
+AttributeError: module 'qdrant_client.http.models.models' has no attribute 'Filte'. Did you mean: 'Filter'?
+
+2026-04-26 07:46:36,020 UTC - ERROR - Error: Error during agent execution: module 'qdrant_client.http.models.models' has no attribute 'Filte'
+Traceback (most recent call last):
+  File "C:\iitm_pravartak\Capstone\Phase 8\main.py", line 74, in process_query
+    response = await agent_executor.ainvoke(args)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\iitm_pravartak\Capstone\capstone\Lib\site-packages\langchain_classic\chains\base.py", line 222, in ainvoke
+    await self._acall(inputs, run_manager=run_manager)
+  File "c:\iitm_pravartak\Capstone\capstone\Lib\site-packages\langchain_classic\agents\agent.py", line 1646, in _acall
+    next_step_output = await self._atake_next_step(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "c:\iitm_pravartak\Capstone\capstone\Lib\site-packages\langchain_classic\agents\agent.py", line 1428, in _atake_next_step
+    [
+    ^
+    ...<8 lines>...
+    ],
+    ^
+  File "c:\iitm_pravartak\Capstone\capstone\Lib\site-packages\langchain_classic\agents\agent.py", line 1511, in _aiter_next_step
+    result = await asyncio.gather(
+             ^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "c:\iitm_pravartak\Capstone\capstone\Lib\site-packages\langchain_classic\agents\agent.py", line 1549, in _aperform_agent_action
+    observation = await tool.arun(
+                  ^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "c:\iitm_pravartak\Capstone\capstone\Lib\site-packages\langchain_core\tools\base.py", line 1131, in arun
+    raise error_to_raise
+  File "c:\iitm_pravartak\Capstone\capstone\Lib\site-packages\langchain_core\tools\base.py", line 1097, in arun
+    response = await coro_with_context(coro, context)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\iitm_pravartak\Capstone\capstone\Lib\site-packages\langchain_core\tools\structured.py", line 124, in _arun
+    return await self.coroutine(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\iitm_pravartak\Capstone\capstone\Lib\site-packages\langsmith\run_helpers.py", line 631, in async_wrapper
+    function_result = await asyncio.create_task(  # type: ignore[call-arg]
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        fr_coro, context=run_container["context"]
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\iitm_pravartak\Capstone\Phase 8\advisory_engine.py", line 44, in advisory_engine
+    "filter": rest.Filte(
+              ^^^^^^^^^^
+AttributeError: module 'qdrant_client.http.models.models' has no attribute 'Filte'. Did you mean: 'Filter'?
+
+2026-04-26 07:46:36,021 UTC - INFO - Async function 'process_query' executed in 5.528819 seconds
+2026-04-26 07:46:40,629 UTC - INFO - User query: exit
+2026-04-26 07:46:40,631 UTC - INFO - User requested to exit.
+2026-04-26 07:53:22,049 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-26 07:53:22,262 UTC - INFO - XYZ Bank Chatbot initialized and ready to receive queries.
+2026-04-26 07:53:22,262 UTC - INFO - Session ID: ba7dfd65510643c3
+2026-04-26 07:53:24,135 UTC - INFO - User query: lost my card please help
+2026-04-26 07:53:25,951 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-26 07:53:25,970 UTC - INFO - Intent classification raw output: content='{"category":"human_handoff","confidence":0.95,"feedback":null}' additional_kwargs={'parsed': IntentTag(category='human_handoff', confidence=0.95, feedback=None), 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 17, 'prompt_tokens': 582, 'total_tokens': 599, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_provider': 'openai', 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_888e567758', 'id': 'chatcmpl-DYoarie0za2CrN2dhPppkPqkYFqlp', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None} id='lc_run--019dc8c7-661f-7ad3-a254-aae92e68bbeb-0' tool_calls=[] invalid_tool_calls=[] usage_metadata={'input_tokens': 582, 'output_tokens': 17, 'total_tokens': 599, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}
+2026-04-26 07:53:25,970 UTC - INFO - Intent classification parsed output: <class 'models.IntentTag'>
+2026-04-26 07:53:25,971 UTC - INFO - Async function 'categorize_intent' executed in 1.717968 seconds
+2026-04-26 07:53:25,971 UTC - INFO - Intent classification result: {'intent': 'human_handoff', 'confidence_score': 0.95, 'feedback': None}
+2026-04-26 07:53:25,977 UTC - INFO - Feedback loaded for session ba7dfd65510643c3
+2026-04-26 07:53:30,149 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-26 07:53:30,508 UTC - INFO - Agent Action: Using tool 'advisory_engine' with input '{'query': 'lost my card please help', 'intent': 'human_handoff'}'
+2026-04-26 07:53:31,683 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-26 07:53:34,119 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-26 07:53:34,133 UTC - INFO - Advisory engine result: {'raw': AIMessage(content='{"advice":"I\'m sorry to hear that you\'ve lost your card. Please contact our Customer Support at 1800-XYZ-BANK for immediate assistance in blocking your card and obtaining a replacement."}', additional_kwargs={'parsed': FinancialState(advice="I'm sorry to hear that you've lost your card. Please contact our Customer Support at 1800-XYZ-BANK for immediate assistance in blocking your card and obtaining a replacement."), 'refusal': None}, response_metadata={'token_usage': {'completion_tokens': 40, 'prompt_tokens': 480, 'total_tokens': 520, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_provider': 'openai', 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_57133166c6', 'id': 'chatcmpl-DYoayzcJ6gQ1aLiyDF26Rt6NShmZc', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None}, id='lc_run--019dc8c7-833b-7993-8691-8c46706d1c41-0', tool_calls=[], invalid_tool_calls=[], usage_metadata={'input_tokens': 480, 'output_tokens': 40, 'total_tokens': 520, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}), 'parsed': FinancialState(advice="I'm sorry to hear that you've lost your card. Please contact our Customer Support at 1800-XYZ-BANK for immediate assistance in blocking your card and obtaining a replacement."), 'parsing_error': None}
+2026-04-26 07:53:36,348 UTC - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-26 07:53:37,543 UTC - INFO - Agent Final Answer: I'm sorry to hear that you've lost your card. Please contact Customer Support at **1800-XYZ-BANK** for immediate assistance in blocking your card and obtaining a replacement.
+
+_Disclaimer: Educational purposes only._
+2026-04-26 07:53:37,548 UTC - INFO - Async function 'process_query' executed in 13.382800 seconds
+2026-04-26 07:54:09,517 UTC - INFO - User query: exit
+2026-04-26 07:54:09,518 UTC - INFO - User requested to exit.
