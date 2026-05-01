@@ -2,7 +2,7 @@ import time
 import functools
 import inspect
 import asyncio
-from log import logger
+from backend.log import logger
 
 def time_it(func):
     """

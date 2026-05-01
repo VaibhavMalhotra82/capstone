@@ -1,7 +1,7 @@
 import os
 from langchain_community.document_loaders import PyPDFLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from utils import vector_store, qdrant_client
+from backend.utils import vector_store, qdrant_client
 from config import CHUNK_SIZE, CHUNK_OVERLAP
 
 def ingest_bank_data(pdf_files_config):

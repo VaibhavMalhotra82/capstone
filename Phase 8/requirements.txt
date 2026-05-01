@@ -9,3 +9,4 @@ langsmith==0.7.36
 pydantic==2.13.3
 python-dotenv==1.2.2
 qdrant_client==1.17.1
+streamlit==1.56.0
