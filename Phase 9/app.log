@@ -1,0 +1,371 @@
+2026-05-02 05:22:47,937 UTC - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-05-02 05:29:16,759 UTC - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 05:29:16,810 UTC - INFO - Intent classification raw output: content='{"category":"loan_inquiry","confidence":0.97,"feedback":null}' additional_kwargs={'parsed': IntentTag(category='loan_inquiry', confidence=0.97, feedback=None), 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 17, 'prompt_tokens': 584, 'total_tokens': 601, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_provider': 'openai', 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_57a1c65a0e', 'id': 'chatcmpl-DaxCemAyzcZPLU9r59drwtvCOj8Rl', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None} id='lc_run--019de729-9354-7553-a94d-fcfa1d35a172-0' tool_calls=[] invalid_tool_calls=[] usage_metadata={'input_tokens': 584, 'output_tokens': 17, 'total_tokens': 601, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}
+2026-05-02 05:29:16,811 UTC - INFO - Intent classification parsed output: <class 'models.IntentTag'>
+2026-05-02 05:29:16,812 UTC - INFO - Async function 'categorize_intent' executed in 1.980015 seconds
+2026-05-02 05:29:16,812 UTC - INFO - Intent classification result: {'intent': 'loan_inquiry', 'confidence_score': 0.97, 'feedback': None}
+2026-05-02 05:29:16,812 UTC - INFO - No feedback found for session 0b805e61255340afb106a21e160e468c
+2026-05-02 05:29:18,172 UTC - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 05:29:18,385 UTC - INFO - Streamlit status progress: Searching the banking knowledge base...
+2026-05-02 05:29:18,388 UTC - INFO - Agent Action: Using tool 'advisory_engine' with input '{'query': 'home loan rates'}'
+2026-05-02 05:29:18,397 UTC - INFO - Advisory engine retrieval intent: loan_inquiry
+2026-05-02 05:29:20,152 UTC - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-05-02 05:29:20,171 UTC - INFO - Retrieved chunk from rag_data/loan.pdf (page 0):
+2026-05-02 05:29:20,171 UTC - INFO - Retrieved chunk from rag_data/loan.pdf (page 0):
+2026-05-02 05:29:20,172 UTC - INFO - Retrieved chunk from rag_data/loan.pdf (page 0):
+2026-05-02 05:29:20,172 UTC - INFO - Retrieved chunk from rag_data/loan.pdf (page 0):
+2026-05-02 05:29:22,046 UTC - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 05:29:22,065 UTC - INFO - Advisory engine result: {'raw': AIMessage(content='{"advice":"The indicative floating interest rates for home loans as of April 2026 range from 8.40% to 9.25% (Linked to EBLR/Repo). To find out more about home loan eligibility and to calculate potential EMIs, I recommend using the \'Loan Calculator\' on our website."}', additional_kwargs={'parsed': FinancialState(advice="The indicative floating interest rates for home loans as of April 2026 range from 8.40% to 9.25% (Linked to EBLR/Repo). To find out more about home loan eligibility and to calculate potential EMIs, I recommend using the 'Loan Calculator' on our website."), 'refusal': None}, response_metadata={'token_usage': {'completion_tokens': 68, 'prompt_tokens': 942, 'total_tokens': 1010, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_provider': 'openai', 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_ed279b101f', 'id': 'chatcmpl-DaxCidvyEimP9LCTdIviEJ0fGzMQL', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None}, id='lc_run--019de729-a830-7063-8d3f-f6516f938681-0', tool_calls=[], invalid_tool_calls=[], usage_metadata={'input_tokens': 942, 'output_tokens': 68, 'total_tokens': 1010, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}), 'parsed': FinancialState(advice="The indicative floating interest rates for home loans as of April 2026 range from 8.40% to 9.25% (Linked to EBLR/Repo). To find out more about home loan eligibility and to calculate potential EMIs, I recommend using the 'Loan Calculator' on our website."), 'parsing_error': None}
+2026-05-02 05:29:26,788 UTC - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 05:29:29,227 UTC - INFO - Agent Final Answer: The indicative floating interest rates for home loans as of April 2026 range from **8.40% to 9.25%** (Linked to EBLR/Repo). 
+
+For more details about home loan eligibility and to calculate potential EMIs, I recommend using the 'Loan Calculator' available on our website.
+
+_Disclaimer: Educational purposes only._
+2026-05-02 05:29:29,232 UTC - INFO - Async function 'process_query' executed in 14.542112 seconds
+2026-05-02 05:45:08,240 UTC - INFO - Received query: You are too concise give me complete explanation (Session ID: 0b805e61255340afb106a21e160e468c)
+2026-05-02 05:45:10,680 UTC - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 05:45:10,721 UTC - INFO - Intent classification raw output: content='{"category":"feedback","confidence":0.85,"feedback":"The user desires a more detailed and comprehensive explanation."}' additional_kwargs={'parsed': IntentTag(category='feedback', confidence=0.85, feedback='The user desires a more detailed and comprehensive explanation.'), 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 24, 'prompt_tokens': 585, 'total_tokens': 609, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_provider': 'openai', 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_57a1c65a0e', 'id': 'chatcmpl-DaxS101QxZqyBOuIE6vLypxIRPKlT', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None} id='lc_run--019de738-1fe8-7842-8770-c6e0b0449798-0' tool_calls=[] invalid_tool_calls=[] usage_metadata={'input_tokens': 585, 'output_tokens': 24, 'total_tokens': 609, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}
+2026-05-02 05:45:10,721 UTC - INFO - Intent classification parsed output: <class 'models.IntentTag'>
+2026-05-02 05:45:10,722 UTC - INFO - Async function 'categorize_intent' executed in 2.406243 seconds
+2026-05-02 05:45:10,722 UTC - INFO - Intent classification result: {'intent': 'feedback', 'confidence_score': 0.85, 'feedback': 'The user desires a more detailed and comprehensive explanation.'}
+2026-05-02 05:45:10,722 UTC - INFO - Storing user feedback: The user desires a more detailed and comprehensive explanation.
+2026-05-02 05:45:10,723 UTC - INFO - Feedback stored for session 0b805e61255340afb106a21e160e468c
+2026-05-02 05:45:10,724 UTC - INFO - Feedback loaded for session 0b805e61255340afb106a21e160e468c
+2026-05-02 05:45:12,075 UTC - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 05:45:12,234 UTC - INFO - Streamlit status progress: Searching the banking knowledge base...
+2026-05-02 05:45:12,236 UTC - INFO - Agent Action: Using tool 'advisory_engine' with input '{'query': 'home loan rates', 'intent': 'loan_inquiry'}'
+2026-05-02 05:45:12,241 UTC - INFO - Advisory engine retrieval intent: loan_inquiry
+2026-05-02 05:45:13,679 UTC - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-05-02 05:45:13,699 UTC - INFO - Retrieved chunk from rag_data/loan.pdf (page 0):
+2026-05-02 05:45:13,699 UTC - INFO - Retrieved chunk from rag_data/loan.pdf (page 0):
+2026-05-02 05:45:13,699 UTC - INFO - Retrieved chunk from rag_data/loan.pdf (page 0):
+2026-05-02 05:45:13,699 UTC - INFO - Retrieved chunk from rag_data/loan.pdf (page 0):
+2026-05-02 05:45:16,548 UTC - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 05:45:16,573 UTC - INFO - Advisory engine result: {'raw': AIMessage(content='{"advice":"The current indicative interest rates for home loans are between 8.40% to 9.25% per annum, which are linked to the External Benchmark Lending Rate (EBLR) or Repo Rate. To get a better understanding of your options, I recommend using the Loan Calculator available on our website. If you have any specific queries or need assistance with the application process, please let me know!"}', additional_kwargs={'parsed': FinancialState(advice='The current indicative interest rates for home loans are between 8.40% to 9.25% per annum, which are linked to the External Benchmark Lending Rate (EBLR) or Repo Rate. To get a better understanding of your options, I recommend using the Loan Calculator available on our website. If you have any specific queries or need assistance with the application process, please let me know!'), 'refusal': None}, response_metadata={'token_usage': {'completion_tokens': 85, 'prompt_tokens': 942, 'total_tokens': 1027, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_provider': 'openai', 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_ed279b101f', 'id': 'chatcmpl-DaxS6ivqopvAfxOl9nEkwwSIxgep8', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None}, id='lc_run--019de738-34e6-7de1-a6d6-a2c7c09d508d-0', tool_calls=[], invalid_tool_calls=[], usage_metadata={'input_tokens': 942, 'output_tokens': 85, 'total_tokens': 1027, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}), 'parsed': FinancialState(advice='The current indicative interest rates for home loans are between 8.40% to 9.25% per annum, which are linked to the External Benchmark Lending Rate (EBLR) or Repo Rate. To get a better understanding of your options, I recommend using the Loan Calculator available on our website. If you have any specific queries or need assistance with the application process, please let me know!'), 'parsing_error': None}
+2026-05-02 05:45:17,359 UTC - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 05:45:25,557 UTC - INFO - Agent Final Answer: Certainly! Here’s a more detailed explanation of home loan rates:
+
+### Home Loan Interest Rates
+
+As of April 2026, the indicative floating interest rates for home loans are between **8.40% to 9.25% per annum**. These rates are linked to the **External Benchmark Lending Rate (EBLR)** or **Repo Rate**. This means that the interest rate you receive can vary based on these benchmarks.
+
+#### Key Points:
+
+1. **Types of Loans**: 
+   - **Home Loans**: These are specifically designed for financing the purchase, construction, or renovation of residential property.
+   - Other types of loans include personal loans, vehicle loans, and education loans, each having their own interest rate ranges.
+
+2. **Understanding Interest Rates**:
+   - **Floating Rates**: These rates can change periodically based on market conditions and economic factors linked to the prevailing EBLR or Repo Rate.
+   - Your final interest rate may depend on various factors, including your credit score and the loan amount.
+
+3. **Eligibility Criteria**:
+   - **Age**: Applicants must be between 21 to 60 years (65 for self-employed individuals).
+   - **Employment**: At least 2 years of work experience, with a minimum of 1 year at your current employer.
+   - **Income**: A minimum monthly net take-home salary of ₹25,000 is required.
+   - **Credit Score**: A CIBIL score of 750 or higher is preferred to qualify for the best interest rates.
+
+4. **Application Process**:
+   - **Check Eligibility**: Use XYZ Bank’s EMI calculator available on the website.
+   - **Documentation**: Required documents typically include PAN, Aadhaar, recent salary slips (for the last 3 months), and bank statements (for the last 6 months).
+   - **Verification**: The bank will conduct a field investigation and credit check.
+   - **Sanction**: Once approved, you will receive a digital sanction letter via email.
+   - **Disbursement**: Loan funds can either be credited directly to your account or to the vendor's account, depending on the purchase.
+
+5. **Loan Calculator**: 
+   - To help you better understand your options and potential monthly payments, you can use the Loan Calculator available on our website.
+
+If you have more specific questions or need assistance with the application process, feel free to reach out!
+
+_Disclaimer: Educational purposes only._
+2026-05-02 05:45:25,564 UTC - INFO - Async function 'process_query' executed in 17.264725 seconds
+2026-05-02 05:52:58,357 UTC - INFO - Received query: you are too wordy give me short and concise answers (Session ID: 0b805e61255340afb106a21e160e468c)
+2026-05-02 05:53:00,302 UTC - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 05:53:00,337 UTC - INFO - Intent classification raw output: content='{"category":"feedback","confidence":0.85,"feedback":"The user wants more concise answers, focusing on key details."}' additional_kwargs={'parsed': IntentTag(category='feedback', confidence=0.85, feedback='The user wants more concise answers, focusing on key details.'), 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 26, 'prompt_tokens': 588, 'total_tokens': 614, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_provider': 'openai', 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_57a1c65a0e', 'id': 'chatcmpl-DaxZbRKTQZ8qjisjVw1wDUfEkuMpk', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None} id='lc_run--019de73f-4c34-72d1-b472-3f17548cf38a-0' tool_calls=[] invalid_tool_calls=[] usage_metadata={'input_tokens': 588, 'output_tokens': 26, 'total_tokens': 614, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}
+2026-05-02 05:53:00,337 UTC - INFO - Intent classification parsed output: <class 'models.IntentTag'>
+2026-05-02 05:53:00,338 UTC - INFO - Async function 'categorize_intent' executed in 1.919740 seconds
+2026-05-02 05:53:00,338 UTC - INFO - Intent classification result: {'intent': 'feedback', 'confidence_score': 0.85, 'feedback': 'The user wants more concise answers, focusing on key details.'}
+2026-05-02 05:53:00,338 UTC - INFO - Storing user feedback: The user wants more concise answers, focusing on key details.
+2026-05-02 05:53:00,339 UTC - INFO - Feedback stored for session 0b805e61255340afb106a21e160e468c
+2026-05-02 05:53:00,340 UTC - INFO - Feedback loaded for session 0b805e61255340afb106a21e160e468c
+2026-05-02 05:53:00,874 UTC - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 05:53:02,080 UTC - INFO - Agent Final Answer: Home loan rates as of April 2026: **8.40% to 9.25%** (floating linked to EBLR/Repo). 
+
+### Key Points:
+- **Eligibility**: Age 21-60, ₹25,000 monthly salary, good credit score.
+- **Application**: Check eligibility, provide documentation (PAN, salary slips), loan disbursement upon approval.
+
+Use the online EMI calculator for precise figures. 
+
+_Disclaimer: Educational purposes only._
+2026-05-02 05:53:02,084 UTC - INFO - Async function 'process_query' executed in 3.670690 seconds
+2026-05-02 05:53:11,210 UTC - INFO - Received query: ₹10k/month for 5 years at 10%? (Session ID: 0b805e61255340afb106a21e160e468c)
+2026-05-02 05:53:12,280 UTC - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 05:53:12,301 UTC - INFO - Intent classification raw output: content='{"category":"loan_inquiry","confidence":0.95,"feedback":null}' additional_kwargs={'parsed': IntentTag(category='loan_inquiry', confidence=0.95, feedback=None), 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 17, 'prompt_tokens': 590, 'total_tokens': 607, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_provider': 'openai', 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_57a1c65a0e', 'id': 'chatcmpl-DaxZn6dstse6vwRS0yMvkV46XKvGd', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None} id='lc_run--019de73f-7e6b-7062-9693-aca9e809c08e-0' tool_calls=[] invalid_tool_calls=[] usage_metadata={'input_tokens': 590, 'output_tokens': 17, 'total_tokens': 607, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}
+2026-05-02 05:53:12,302 UTC - INFO - Intent classification parsed output: <class 'models.IntentTag'>
+2026-05-02 05:53:12,302 UTC - INFO - Async function 'categorize_intent' executed in 1.030436 seconds
+2026-05-02 05:53:12,302 UTC - INFO - Intent classification result: {'intent': 'loan_inquiry', 'confidence_score': 0.95, 'feedback': None}
+2026-05-02 05:53:12,303 UTC - INFO - Feedback loaded for session 0b805e61255340afb106a21e160e468c
+2026-05-02 05:53:13,001 UTC - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 05:53:13,246 UTC - INFO - Streamlit status progress: Calculating EMI...
+2026-05-02 05:53:13,248 UTC - INFO - Agent Action: Using tool 'calculate_emi' with input '{'principal': 600000, 'annual_rate': 10, 'tenure_years': 5}'
+2026-05-02 05:53:15,272 UTC - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 05:53:17,312 UTC - INFO - Agent Final Answer: For a loan of ₹6,00,000 at 10% interest for 5 years, the monthly EMI is **₹12,748.23**.
+
+_Disclaimer: Educational purposes only._
+2026-05-02 05:53:17,316 UTC - INFO - Async function 'process_query' executed in 6.050844 seconds
+2026-05-02 05:59:22,749 UTC - INFO - Received query: can I visit the bank on a 4th Saturday at 2:00 PM? (Session ID: 0b805e61255340afb106a21e160e468c)
+2026-05-02 05:59:24,365 UTC - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 05:59:24,396 UTC - INFO - Intent classification raw output: content='{"category":"general_faq","confidence":0.97,"feedback":null}' additional_kwargs={'parsed': IntentTag(category='general_faq', confidence=0.97, feedback=None), 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 17, 'prompt_tokens': 595, 'total_tokens': 612, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_provider': 'openai', 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_6f731aea6a', 'id': 'chatcmpl-DaxfnkJk00cfsm03CiPt446XGJxht', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None} id='lc_run--019de745-29bf-7842-ba26-70f967259422-0' tool_calls=[] invalid_tool_calls=[] usage_metadata={'input_tokens': 595, 'output_tokens': 17, 'total_tokens': 612, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}
+2026-05-02 05:59:24,396 UTC - INFO - Intent classification parsed output: <class 'models.IntentTag'>
+2026-05-02 05:59:24,397 UTC - INFO - Async function 'categorize_intent' executed in 1.583851 seconds
+2026-05-02 05:59:24,397 UTC - INFO - Intent classification result: {'intent': 'general_faq', 'confidence_score': 0.97, 'feedback': None}
+2026-05-02 05:59:24,398 UTC - INFO - Feedback loaded for session 0b805e61255340afb106a21e160e468c
+2026-05-02 05:59:25,011 UTC - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 05:59:25,711 UTC - INFO - Agent Final Answer: Yes, you can visit the bank on the 4th Saturday at 2:00 PM. 
+
+_Disclaimer: Educational purposes only._
+2026-05-02 05:59:25,716 UTC - INFO - Async function 'process_query' executed in 2.910021 seconds
+2026-05-02 06:02:18,001 UTC - INFO - Received query: branch operational working hours? (Session ID: 0b805e61255340afb106a21e160e468c)
+2026-05-02 06:02:19,757 UTC - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 06:02:19,792 UTC - INFO - Intent classification raw output: content='{"category":"general_faq","confidence":0.97,"feedback":null}' additional_kwargs={'parsed': IntentTag(category='general_faq', confidence=0.97, feedback=None), 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 17, 'prompt_tokens': 582, 'total_tokens': 599, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_provider': 'openai', 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_6f731aea6a', 'id': 'chatcmpl-DaxidGvg935e1w9L6vo0CzBg7EoC0', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None} id='lc_run--019de747-d650-7901-be51-071e418cc994-0' tool_calls=[] invalid_tool_calls=[] usage_metadata={'input_tokens': 582, 'output_tokens': 17, 'total_tokens': 599, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}
+2026-05-02 06:02:19,793 UTC - INFO - Intent classification parsed output: <class 'models.IntentTag'>
+2026-05-02 06:02:19,793 UTC - INFO - Async function 'categorize_intent' executed in 1.731542 seconds
+2026-05-02 06:02:19,793 UTC - INFO - Intent classification result: {'intent': 'general_faq', 'confidence_score': 0.97, 'feedback': None}
+2026-05-02 06:02:19,794 UTC - INFO - Feedback loaded for session 0b805e61255340afb106a21e160e468c
+2026-05-02 06:02:20,931 UTC - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 06:02:21,326 UTC - INFO - Streamlit status progress: Searching the banking knowledge base...
+2026-05-02 06:02:21,328 UTC - INFO - Agent Action: Using tool 'advisory_engine' with input '{'query': 'branch operational working hours?', 'intent': 'general_faq'}'
+2026-05-02 06:02:21,334 UTC - INFO - Advisory engine retrieval intent: general_faq
+2026-05-02 06:02:22,982 UTC - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-05-02 06:02:22,991 UTC - INFO - Retrieved chunk from rag_data/faqs.pdf (page 0):
+2026-05-02 06:02:22,991 UTC - INFO - Retrieved chunk from rag_data/faqs.pdf (page 0):
+2026-05-02 06:02:22,991 UTC - INFO - Retrieved chunk from rag_data/faqs.pdf (page 0):
+2026-05-02 06:02:26,250 UTC - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 06:02:26,391 UTC - INFO - Advisory engine result: {'raw': AIMessage(content='{"advice":"Branch operational hours are as follows:\\n\\n- Weekdays: 9:30 AM to 4:00 PM (Public Dealing).\\n- Saturdays: 9:30 AM to 1:00 PM (Closed on 2nd and 4th Saturdays).\\n- Sundays: Closed.\\n\\nDigital Banking is available 24/7/365 via our App and Net Banking."}', additional_kwargs={'parsed': FinancialState(advice='Branch operational hours are as follows:\n\n- Weekdays: 9:30 AM to 4:00 PM (Public Dealing).\n- Saturdays: 9:30 AM to 1:00 PM (Closed on 2nd and 4th Saturdays).\n- Sundays: Closed.\n\nDigital Banking is available 24/7/365 via our App and Net Banking.'), 'refusal': None}, response_metadata={'token_usage': {'completion_tokens': 86, 'prompt_tokens': 917, 'total_tokens': 1003, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_provider': 'openai', 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_ec08ae704b', 'id': 'chatcmpl-DaxiiOO7LdYKdhZtHCLn6lw5zEFoA', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None}, id='lc_run--019de747-e994-77d1-a21d-d90139a0e4b0-0', tool_calls=[], invalid_tool_calls=[], usage_metadata={'input_tokens': 917, 'output_tokens': 86, 'total_tokens': 1003, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}), 'parsed': FinancialState(advice='Branch operational hours are as follows:\n\n- Weekdays: 9:30 AM to 4:00 PM (Public Dealing).\n- Saturdays: 9:30 AM to 1:00 PM (Closed on 2nd and 4th Saturdays).\n- Sundays: Closed.\n\nDigital Banking is available 24/7/365 via our App and Net Banking.'), 'parsing_error': None}
+2026-05-02 06:02:28,009 UTC - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 06:02:31,280 UTC - INFO - Agent Final Answer: Here are the concise branch operational hours:
+
+- **Weekdays**: 9:30 AM to 4:00 PM (Public Dealing)
+- **Saturdays**: 9:30 AM to 1:00 PM (Closed on 2nd and 4th Saturdays)
+- **Sundays**: Closed
+
+Digital Banking is available **24/7** through our App and Net Banking.
+
+_Disclaimer: Educational purposes only._
+2026-05-02 06:02:31,285 UTC - INFO - Async function 'process_query' executed in 13.228085 seconds
+2026-05-02 06:04:38,973 UTC - INFO - Received query: can I visit the bank on a 4th Saturday at 2:00 PM? (Session ID: 0b805e61255340afb106a21e160e468c)
+2026-05-02 06:04:40,032 UTC - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 06:04:40,060 UTC - INFO - Intent classification raw output: content='{"category":"general_faq","confidence":0.97,"feedback":null}' additional_kwargs={'parsed': IntentTag(category='general_faq', confidence=0.97, feedback=None), 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 17, 'prompt_tokens': 595, 'total_tokens': 612, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_provider': 'openai', 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_6f731aea6a', 'id': 'chatcmpl-Daxkt6l7dU3ZJATpBbV05KelTGMGl', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None} id='lc_run--019de749-fcfa-7311-aa5e-edbf11f66c7c-0' tool_calls=[] invalid_tool_calls=[] usage_metadata={'input_tokens': 595, 'output_tokens': 17, 'total_tokens': 612, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}
+2026-05-02 06:04:40,060 UTC - INFO - Intent classification parsed output: <class 'models.IntentTag'>
+2026-05-02 06:04:40,060 UTC - INFO - Async function 'categorize_intent' executed in 1.028853 seconds
+2026-05-02 06:04:40,060 UTC - INFO - Intent classification result: {'intent': 'general_faq', 'confidence_score': 0.97, 'feedback': None}
+2026-05-02 06:04:40,061 UTC - INFO - Feedback loaded for session 0b805e61255340afb106a21e160e468c
+2026-05-02 06:04:40,922 UTC - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 06:04:41,545 UTC - INFO - Agent Final Answer: No, the bank is closed on the 4th Saturday. 
+
+_Disclaimer: Educational purposes only._
+2026-05-02 06:04:41,549 UTC - INFO - Async function 'process_query' executed in 2.521996 seconds
+2026-05-02 06:05:43,456 UTC - INFO - Removed session artifact: history_0b805e61255340afb106a21e160e468c.json
+2026-05-02 06:05:43,457 UTC - INFO - Removed session artifact: feedback_0b805e61255340afb106a21e160e468c.json
+2026-05-02 06:05:49,240 UTC - INFO - Qdrant client closed successfully.
+2026-05-02 06:06:59,437 UTC - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-05-02 06:07:02,528 UTC - INFO - Received query: None (Session ID: 2a1166969f934cf19eeaf066f42b49ab)
+2026-05-02 06:07:21,993 UTC - INFO - Received query: can I visit the bank on a 4th Saturday at 2:00 PM? (Session ID: 2a1166969f934cf19eeaf066f42b49ab)
+2026-05-02 06:07:23,230 UTC - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 06:07:23,307 UTC - INFO - Intent classification raw output: content='{"category":"general_faq","confidence":0.92,"feedback":null}' additional_kwargs={'parsed': IntentTag(category='general_faq', confidence=0.92, feedback=None), 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 17, 'prompt_tokens': 595, 'total_tokens': 612, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_provider': 'openai', 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_6f731aea6a', 'id': 'chatcmpl-DaxnWLM5UNFwP3l8mLHxRpRyLlMrT', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None} id='lc_run--019de74c-7a50-7e52-8fe9-a6c6ef4fe813-0' tool_calls=[] invalid_tool_calls=[] usage_metadata={'input_tokens': 595, 'output_tokens': 17, 'total_tokens': 612, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}
+2026-05-02 06:07:23,307 UTC - INFO - Intent classification parsed output: <class 'models.IntentTag'>
+2026-05-02 06:07:23,308 UTC - INFO - Async function 'categorize_intent' executed in 1.126348 seconds
+2026-05-02 06:07:23,308 UTC - INFO - Intent classification result: {'intent': 'general_faq', 'confidence_score': 0.92, 'feedback': None}
+2026-05-02 06:07:23,308 UTC - INFO - No feedback found for session 2a1166969f934cf19eeaf066f42b49ab
+2026-05-02 06:07:24,229 UTC - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 06:07:24,377 UTC - INFO - Streamlit status progress: Searching the banking knowledge base...
+2026-05-02 06:07:24,379 UTC - INFO - Agent Action: Using tool 'advisory_engine' with input '{'query': 'bank hours on 4th Saturday'}'
+2026-05-02 06:07:24,390 UTC - INFO - Advisory engine retrieval intent: loan_inquiry
+2026-05-02 06:07:25,667 UTC - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-05-02 06:07:25,699 UTC - INFO - Retrieved chunk from rag_data/loan.pdf (page 0):
+2026-05-02 06:07:25,700 UTC - INFO - Retrieved chunk from rag_data/loan.pdf (page 0):
+2026-05-02 06:07:25,700 UTC - INFO - Retrieved chunk from rag_data/loan.pdf (page 0):
+2026-05-02 06:07:25,700 UTC - INFO - Retrieved chunk from rag_data/loan.pdf (page 0):
+2026-05-02 06:07:27,323 UTC - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 06:07:27,389 UTC - INFO - Advisory engine result: {'raw': AIMessage(content='{"advice":"Most banks, including XYZ Bank, typically operate on the 4th Saturday of each month from 10:00 AM to 2:00 PM. However, it\'s advisable to check the specific branch\'s hours on the official website or contact customer support for any variations."}', additional_kwargs={'parsed': FinancialState(advice="Most banks, including XYZ Bank, typically operate on the 4th Saturday of each month from 10:00 AM to 2:00 PM. However, it's advisable to check the specific branch's hours on the official website or contact customer support for any variations."), 'refusal': None}, response_metadata={'token_usage': {'completion_tokens': 59, 'prompt_tokens': 945, 'total_tokens': 1004, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_provider': 'openai', 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_9075db19fa', 'id': 'chatcmpl-DaxnaXLVWzhRRyr87so1HJRqS5VDc', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None}, id='lc_run--019de74c-8807-7012-93d4-6914de30a5ca-0', tool_calls=[], invalid_tool_calls=[], usage_metadata={'input_tokens': 945, 'output_tokens': 59, 'total_tokens': 1004, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}), 'parsed': FinancialState(advice="Most banks, including XYZ Bank, typically operate on the 4th Saturday of each month from 10:00 AM to 2:00 PM. However, it's advisable to check the specific branch's hours on the official website or contact customer support for any variations."), 'parsing_error': None}
+2026-05-02 06:07:28,181 UTC - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 06:07:29,849 UTC - INFO - Agent Final Answer: Yes, you can visit the bank on the 4th Saturday at 2:00 PM, as most banks, including XYZ Bank, typically operate on that day from 10:00 AM to 2:00 PM. However, it is advisable to check the specific hours for your branch on the official website or contact customer support for any variations.
+
+_Disclaimer: Educational purposes only._
+2026-05-02 06:07:29,857 UTC - INFO - Async function 'process_query' executed in 7.807276 seconds
+2026-05-02 06:09:15,411 UTC - INFO - Qdrant client closed successfully.
+2026-05-02 06:58:17,133 UTC - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-05-02 06:58:18,448 UTC - INFO - Received query: None (Session ID: c19c5ca573b840ceb9a5ca9bcded79cb)
+2026-05-02 06:58:25,177 UTC - INFO - Received query: What are the home loan rates? (Session ID: c19c5ca573b840ceb9a5ca9bcded79cb)
+2026-05-02 06:58:27,693 UTC - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 06:58:27,762 UTC - INFO - Intent classification raw output: content='{"category":"loan_inquiry","confidence":0.95,"feedback":null}' additional_kwargs={'parsed': IntentTag(category='loan_inquiry', confidence=0.95, feedback=None), 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 17, 'prompt_tokens': 584, 'total_tokens': 601, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_provider': 'openai', 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_6f731aea6a', 'id': 'chatcmpl-DayaxtXJ8ky6lRH3PWJSn9eGLX5xU', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None} id='lc_run--019de77b-37db-7cb1-8903-4bc953f15b7d-0' tool_calls=[] invalid_tool_calls=[] usage_metadata={'input_tokens': 584, 'output_tokens': 17, 'total_tokens': 601, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}
+2026-05-02 06:58:27,762 UTC - INFO - Intent classification parsed output: <class 'models.IntentTag'>
+2026-05-02 06:58:27,763 UTC - INFO - Async function 'categorize_intent' executed in 2.397717 seconds
+2026-05-02 06:58:27,763 UTC - INFO - Intent classification result: {'intent': 'loan_inquiry', 'confidence_score': 0.95, 'feedback': None}
+2026-05-02 06:58:27,764 UTC - INFO - No feedback found for session c19c5ca573b840ceb9a5ca9bcded79cb
+2026-05-02 06:58:29,423 UTC - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 06:58:29,590 UTC - INFO - Streamlit status progress: Searching the banking knowledge base...
+2026-05-02 06:58:29,592 UTC - INFO - Agent Action: Using tool 'advisory_engine' with input '{'query': 'What are the home loan rates?'}'
+2026-05-02 06:58:29,601 UTC - INFO - Advisory engine retrieval intent: loan_inquiry
+2026-05-02 06:58:31,000 UTC - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-05-02 06:58:31,019 UTC - INFO - Retrieved chunk from rag_data/loan.pdf (page 0):
+2026-05-02 06:58:31,019 UTC - INFO - Retrieved chunk from rag_data/loan.pdf (page 0):
+2026-05-02 06:58:31,019 UTC - INFO - Retrieved chunk from rag_data/loan.pdf (page 0):
+2026-05-02 06:58:31,019 UTC - INFO - Retrieved chunk from rag_data/loan.pdf (page 0):
+2026-05-02 06:58:33,302 UTC - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 06:58:33,324 UTC - INFO - Advisory engine result: {'raw': AIMessage(content='{"advice":"The indicative interest rates for home loans as of April 2026 range from 8.40% to 9.25%, which are linked to EBLR/Repo. For a personalized quote or to get more details, I recommend using the \'Loan Calculator\' on our website."}', additional_kwargs={'parsed': FinancialState(advice="The indicative interest rates for home loans as of April 2026 range from 8.40% to 9.25%, which are linked to EBLR/Repo. For a personalized quote or to get more details, I recommend using the 'Loan Calculator' on our website."), 'refusal': None}, response_metadata={'token_usage': {'completion_tokens': 63, 'prompt_tokens': 997, 'total_tokens': 1060, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_provider': 'openai', 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_ed279b101f', 'id': 'chatcmpl-Dayb1dkU1EQ2Dfrk50emupuJP681T', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None}, id='lc_run--019de77b-4dee-76c1-93f3-b26407fa1250-0', tool_calls=[], invalid_tool_calls=[], usage_metadata={'input_tokens': 997, 'output_tokens': 63, 'total_tokens': 1060, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}), 'parsed': FinancialState(advice="The indicative interest rates for home loans as of April 2026 range from 8.40% to 9.25%, which are linked to EBLR/Repo. For a personalized quote or to get more details, I recommend using the 'Loan Calculator' on our website."), 'parsing_error': None}
+2026-05-02 06:58:34,296 UTC - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 06:58:36,343 UTC - INFO - Agent Final Answer: The indicative interest rates for home loans as of April 2026 range from 8.40% to 9.25%. These rates are linked to the External Benchmark Lending Rate (EBLR) or Repo Rate. 
+
+For a personalized quote or to explore further details, I recommend using the 'Loan Calculator' available on our website.
+
+_Disclaimer: Educational purposes only._
+2026-05-02 06:58:36,349 UTC - INFO - Async function 'process_query' executed in 11.116235 seconds
+2026-05-02 06:58:43,614 UTC - INFO - Received query: ₹10k/month for 5 years at 10%? (Session ID: c19c5ca573b840ceb9a5ca9bcded79cb)
+2026-05-02 06:58:44,657 UTC - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 06:58:44,680 UTC - INFO - Intent classification raw output: content='{"category":"loan_inquiry","confidence":0.95,"feedback":null}' additional_kwargs={'parsed': IntentTag(category='loan_inquiry', confidence=0.95, feedback=None), 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 17, 'prompt_tokens': 590, 'total_tokens': 607, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_provider': 'openai', 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_6f731aea6a', 'id': 'chatcmpl-DaybEWM68bdGNm5Ii5kjfrB4MUmzI', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None} id='lc_run--019de77b-7f5e-76b0-a5fd-2d369a197fe8-0' tool_calls=[] invalid_tool_calls=[] usage_metadata={'input_tokens': 590, 'output_tokens': 17, 'total_tokens': 607, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}
+2026-05-02 06:58:44,680 UTC - INFO - Intent classification parsed output: <class 'models.IntentTag'>
+2026-05-02 06:58:44,681 UTC - INFO - Async function 'categorize_intent' executed in 1.005348 seconds
+2026-05-02 06:58:44,681 UTC - INFO - Intent classification result: {'intent': 'loan_inquiry', 'confidence_score': 0.95, 'feedback': None}
+2026-05-02 06:58:44,681 UTC - INFO - No feedback found for session c19c5ca573b840ceb9a5ca9bcded79cb
+2026-05-02 06:58:45,594 UTC - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 06:58:46,068 UTC - INFO - Streamlit status progress: Calculating EMI...
+2026-05-02 06:58:46,070 UTC - INFO - Agent Action: Using tool 'calculate_emi' with input '{'principal': 600000, 'annual_rate': 10, 'tenure_years': 5}'
+2026-05-02 06:58:46,753 UTC - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 06:58:48,001 UTC - INFO - Agent Final Answer: For a loan of ₹600,000 at an interest rate of 10% over a period of 5 years, the monthly EMI (Equated Monthly Installment) would be approximately ₹12,748.23.
+
+_Disclaimer: Educational purposes only._
+2026-05-02 06:58:48,006 UTC - INFO - Async function 'process_query' executed in 4.336078 seconds
+2026-05-02 06:59:18,090 UTC - INFO - Received query: can I visit the bank on a 4th Saturday at 2:00 PM? (Session ID: c19c5ca573b840ceb9a5ca9bcded79cb)
+2026-05-02 06:59:19,247 UTC - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 06:59:19,277 UTC - INFO - Intent classification raw output: content='{"category":"general_faq","confidence":0.95,"feedback":null}' additional_kwargs={'parsed': IntentTag(category='general_faq', confidence=0.95, feedback=None), 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 17, 'prompt_tokens': 595, 'total_tokens': 612, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_provider': 'openai', 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_6f731aea6a', 'id': 'chatcmpl-Daybmr2W7ahwGnlIEQp4IlT7lzbR3', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None} id='lc_run--019de77c-060a-7e91-b915-e58640473fa6-0' tool_calls=[] invalid_tool_calls=[] usage_metadata={'input_tokens': 595, 'output_tokens': 17, 'total_tokens': 612, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}
+2026-05-02 06:59:19,277 UTC - INFO - Intent classification parsed output: <class 'models.IntentTag'>
+2026-05-02 06:59:19,278 UTC - INFO - Async function 'categorize_intent' executed in 1.126727 seconds
+2026-05-02 06:59:19,278 UTC - INFO - Intent classification result: {'intent': 'general_faq', 'confidence_score': 0.95, 'feedback': None}
+2026-05-02 06:59:19,279 UTC - INFO - No feedback found for session c19c5ca573b840ceb9a5ca9bcded79cb
+2026-05-02 06:59:19,279 UTC - INFO - Pre-fetching advisory guidance with intent general_faq: can I visit the bank on a 4th Saturday at 2:00 PM?
+2026-05-02 06:59:19,282 UTC - INFO - Advisory engine retrieval intent: general_faq
+2026-05-02 06:59:19,669 UTC - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-05-02 06:59:19,676 UTC - INFO - Retrieved chunk from rag_data/faqs.pdf (page 0):
+2026-05-02 06:59:19,676 UTC - INFO - Retrieved chunk from rag_data/faqs.pdf (page 0):
+2026-05-02 06:59:19,676 UTC - INFO - Retrieved chunk from rag_data/faqs.pdf (page 0):
+2026-05-02 06:59:21,786 UTC - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 06:59:21,810 UTC - INFO - Advisory engine result: {'raw': AIMessage(content='{"advice":"Unfortunately, the bank is closed on the 2nd and 4th Saturdays. Therefore, you will not be able to visit the bank on the 4th Saturday at 2:00 PM. You can visit on weekdays from 9:30 AM to 4:00 PM, or on the 1st and 3rd Saturdays from 9:30 AM to 1:00 PM."}', additional_kwargs={'parsed': FinancialState(advice='Unfortunately, the bank is closed on the 2nd and 4th Saturdays. Therefore, you will not be able to visit the bank on the 4th Saturday at 2:00 PM. You can visit on weekdays from 9:30 AM to 4:00 PM, or on the 1st and 3rd Saturdays from 9:30 AM to 1:00 PM.'), 'refusal': None}, response_metadata={'token_usage': {'completion_tokens': 88, 'prompt_tokens': 981, 'total_tokens': 1069, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_provider': 'openai', 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_ec08ae704b', 'id': 'chatcmpl-DayboqyLr7QDQFyzoGVKWWzUOhds9', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None}, id='lc_run--019de77c-0c01-7c01-9d91-12fb3e4b52a6-0', tool_calls=[], invalid_tool_calls=[], usage_metadata={'input_tokens': 981, 'output_tokens': 88, 'total_tokens': 1069, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}), 'parsed': FinancialState(advice='Unfortunately, the bank is closed on the 2nd and 4th Saturdays. Therefore, you will not be able to visit the bank on the 4th Saturday at 2:00 PM. You can visit on weekdays from 9:30 AM to 4:00 PM, or on the 1st and 3rd Saturdays from 9:30 AM to 1:00 PM.'), 'parsing_error': None}
+2026-05-02 06:59:22,492 UTC - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 06:59:25,088 UTC - INFO - Agent Final Answer: Unfortunately, the bank is closed on the 2nd and 4th Saturdays. Therefore, you will not be able to visit the bank on the 4th Saturday at 2:00 PM. You can visit on weekdays from 9:30 AM to 4:00 PM, or on the 1st and 3rd Saturdays from 9:30 AM to 1:00 PM.
+
+_Disclaimer: Educational purposes only._
+2026-05-02 06:59:25,093 UTC - INFO - Async function 'process_query' executed in 6.947929 seconds
+2026-05-02 07:00:20,993 UTC - INFO - Qdrant client closed successfully.
+2026-05-02 07:06:18,907 UTC - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-05-02 07:06:20,114 UTC - INFO - Received query: None (Session ID: e35cb149ecae4f8da5d9851c490435de)
+2026-05-02 07:06:34,865 UTC - INFO - Received query: What are the home loan rates? (Session ID: e35cb149ecae4f8da5d9851c490435de)
+2026-05-02 07:06:36,258 UTC - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 07:06:36,300 UTC - INFO - Intent classification raw output: content='{"category":"loan_inquiry","confidence":0.95,"feedback":null}' additional_kwargs={'parsed': IntentTag(category='loan_inquiry', confidence=0.95, feedback=None), 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 17, 'prompt_tokens': 584, 'total_tokens': 601, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_provider': 'openai', 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_6f731aea6a', 'id': 'chatcmpl-Dayip7IulW0eCnxMLpXhO7xJ3uydb', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None} id='lc_run--019de782-b0a1-7940-b233-bda409b54d89-0' tool_calls=[] invalid_tool_calls=[] usage_metadata={'input_tokens': 584, 'output_tokens': 17, 'total_tokens': 601, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}
+2026-05-02 07:06:36,300 UTC - INFO - Intent classification parsed output: <class 'models.IntentTag'>
+2026-05-02 07:06:36,300 UTC - INFO - Async function 'categorize_intent' executed in 1.263731 seconds
+2026-05-02 07:06:36,300 UTC - INFO - Intent classification result: {'intent': 'loan_inquiry', 'confidence_score': 0.95, 'feedback': None}
+2026-05-02 07:06:36,300 UTC - INFO - No feedback found for session e35cb149ecae4f8da5d9851c490435de
+2026-05-02 07:06:37,094 UTC - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 07:06:37,438 UTC - INFO - Streamlit status progress: Searching the banking knowledge base...
+2026-05-02 07:06:37,440 UTC - INFO - Agent Action: Using tool 'advisory_engine' with input '{'query': 'home loan rates', 'intent': 'loan_inquiry'}'
+2026-05-02 07:06:37,452 UTC - INFO - Advisory engine retrieval intent: loan_inquiry
+2026-05-02 07:06:37,709 UTC - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-05-02 07:06:37,715 UTC - INFO - Retrieved chunk from rag_data/loan.pdf (page 0):
+2026-05-02 07:06:37,715 UTC - INFO - Retrieved chunk from rag_data/loan.pdf (page 0):
+2026-05-02 07:06:37,715 UTC - INFO - Retrieved chunk from rag_data/loan.pdf (page 0):
+2026-05-02 07:06:37,715 UTC - INFO - Retrieved chunk from rag_data/loan.pdf (page 0):
+2026-05-02 07:06:41,397 UTC - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 07:06:41,421 UTC - INFO - Advisory engine result: {'raw': AIMessage(content='{"advice":"The current indicative interest rates for home loans are between 8.40% to 9.25% per annum, which are linked to EBLR/Repo rates. To get started with a home loan application, ensure you meet the eligibility criteria, such as being between 21 to 60 years of age (65 for self-employed), having a minimum of 2 years of work experience with at least 1 year at your current employer, and a minimum monthly net take-home income of ₹25,000. You can also use the \'Loan Calculator\' on our website to estimate your EMIs and overall loan amounts based on your preferences."}', additional_kwargs={'parsed': FinancialState(advice="The current indicative interest rates for home loans are between 8.40% to 9.25% per annum, which are linked to EBLR/Repo rates. To get started with a home loan application, ensure you meet the eligibility criteria, such as being between 21 to 60 years of age (65 for self-employed), having a minimum of 2 years of work experience with at least 1 year at your current employer, and a minimum monthly net take-home income of ₹25,000. You can also use the 'Loan Calculator' on our website to estimate your EMIs and overall loan amounts based on your preferences."), 'refusal': None}, response_metadata={'token_usage': {'completion_tokens': 135, 'prompt_tokens': 993, 'total_tokens': 1128, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_provider': 'openai', 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_ed279b101f', 'id': 'chatcmpl-Dayis2lM1bIBrLiiZJrbttyNPf8e0', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None}, id='lc_run--019de782-bb17-7c11-b21e-d07380cf1011-0', tool_calls=[], invalid_tool_calls=[], usage_metadata={'input_tokens': 993, 'output_tokens': 135, 'total_tokens': 1128, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}), 'parsed': FinancialState(advice="The current indicative interest rates for home loans are between 8.40% to 9.25% per annum, which are linked to EBLR/Repo rates. To get started with a home loan application, ensure you meet the eligibility criteria, such as being between 21 to 60 years of age (65 for self-employed), having a minimum of 2 years of work experience with at least 1 year at your current employer, and a minimum monthly net take-home income of ₹25,000. You can also use the 'Loan Calculator' on our website to estimate your EMIs and overall loan amounts based on your preferences."), 'parsing_error': None}
+2026-05-02 07:06:42,850 UTC - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 07:06:47,122 UTC - INFO - Agent Final Answer: The current indicative interest rates for home loans at XYZ Bank are between **8.40% to 9.25% per annum**, which are linked to EBLR/Repo rates. 
+
+To qualify for a home loan, you should meet the following eligibility criteria:
+- **Age**: 21 to 60 years (65 for self-employed individuals).
+- **Employment**: Minimum of 2 years of work experience with at least 1 year at your current employer.
+- **Income**: Minimum monthly net take-home income of ₹25,000.
+
+For further assistance, you can use the 'Loan Calculator' on our website to estimate your EMIs and loan amounts based on your preferences.
+
+_Disclaimer: Educational purposes only._
+2026-05-02 07:06:47,127 UTC - ERROR - Error: Error during agent execution: must have exactly one of create/read/write/append mode
+Traceback (most recent call last):
+  File "C:\iitm_pravartak\Capstone\Phase 9\backend\query_processor.py", line 233, in process_query
+    save_history_with_guardrail(session_id, history)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\iitm_pravartak\Capstone\Phase 9\backend\memory.py", line 53, in save_history_with_guardrail
+    save_history(session_id, history)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\iitm_pravartak\Capstone\Phase 9\backend\memory.py", line 25, in save_history
+    with open(file_path, "wa") as f:
+         ~~~~^^^^^^^^^^^^^^^^^
+ValueError: must have exactly one of create/read/write/append mode
+
+2026-05-02 07:06:47,128 UTC - INFO - Async function 'process_query' executed in 12.206060 seconds
+2026-05-02 07:07:53,437 UTC - INFO - Qdrant client closed successfully.
+2026-05-02 07:08:47,975 UTC - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-05-02 07:08:49,622 UTC - INFO - Received query: None (Session ID: a72d1d24764b4ddd9a645707f39c44a9)
+2026-05-02 07:10:19,773 UTC - INFO - Qdrant client closed successfully.
+2026-05-02 07:11:44,680 UTC - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-05-02 07:12:01,503 UTC - INFO - Received query: ₹10k/month for 5 years at 10%? (Session ID: 8a1e434dbbde4ab0bff7653aabba2e95)
+2026-05-02 07:12:04,271 UTC - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 07:12:04,320 UTC - INFO - Intent classification raw output: content='{"category":"loan_inquiry","confidence":0.97,"feedback":null}' additional_kwargs={'parsed': IntentTag(category='loan_inquiry', confidence=0.97, feedback=None), 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 17, 'prompt_tokens': 590, 'total_tokens': 607, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_provider': 'openai', 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_57a1c65a0e', 'id': 'chatcmpl-Dayo6zcw83nLT7B4YigXwy5rR2DTO', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None} id='lc_run--019de787-ac90-7693-88aa-7f7471099297-0' tool_calls=[] invalid_tool_calls=[] usage_metadata={'input_tokens': 590, 'output_tokens': 17, 'total_tokens': 607, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}
+2026-05-02 07:12:04,320 UTC - INFO - Intent classification parsed output: <class 'models.IntentTag'>
+2026-05-02 07:12:04,320 UTC - INFO - Async function 'categorize_intent' executed in 2.645701 seconds
+2026-05-02 07:12:04,320 UTC - INFO - Intent classification result: {'intent': 'loan_inquiry', 'confidence_score': 0.97, 'feedback': None}
+2026-05-02 07:12:04,321 UTC - INFO - No feedback found for session 8a1e434dbbde4ab0bff7653aabba2e95
+2026-05-02 07:12:05,873 UTC - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 07:12:06,643 UTC - INFO - Streamlit status progress: Calculating EMI...
+2026-05-02 07:12:06,645 UTC - INFO - Agent Action: Using tool 'calculate_emi' with input '{'principal': 600000, 'annual_rate': 10, 'tenure_years': 5}'
+2026-05-02 07:12:07,527 UTC - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 07:12:08,737 UTC - INFO - Agent Final Answer: For a loan of ₹600,000 over 5 years at an interest rate of 10%, the monthly EMI would be approximately ₹12,748.23. 
+
+If you intend to pay ₹10,000 per month, it would not be sufficient to cover this loan. 
+
+_Disclaimer: Educational purposes only._
+2026-05-02 07:12:08,741 UTC - INFO - Async function 'process_query' executed in 7.183539 seconds
+2026-05-02 07:12:53,248 UTC - INFO - Received query: What are the ATM usage charges in metro cities? (Session ID: 8a1e434dbbde4ab0bff7653aabba2e95)
+2026-05-02 07:12:54,172 UTC - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 07:12:54,192 UTC - INFO - Intent classification raw output: content='{"category":"policy_lookup","confidence":0.95,"feedback":null}' additional_kwargs={'parsed': IntentTag(category='policy_lookup', confidence=0.95, feedback=None), 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 16, 'prompt_tokens': 587, 'total_tokens': 603, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_provider': 'openai', 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_57a1c65a0e', 'id': 'chatcmpl-DayovYJDfbO6n97cBD2HivugGm3l4', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None} id='lc_run--019de788-7640-7772-a327-1c36f529b420-0' tool_calls=[] invalid_tool_calls=[] usage_metadata={'input_tokens': 587, 'output_tokens': 16, 'total_tokens': 603, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}
+2026-05-02 07:12:54,192 UTC - INFO - Intent classification parsed output: <class 'models.IntentTag'>
+2026-05-02 07:12:54,192 UTC - INFO - Async function 'categorize_intent' executed in 0.883389 seconds
+2026-05-02 07:12:54,193 UTC - INFO - Intent classification result: {'intent': 'policy_lookup', 'confidence_score': 0.95, 'feedback': None}
+2026-05-02 07:12:54,193 UTC - INFO - No feedback found for session 8a1e434dbbde4ab0bff7653aabba2e95
+2026-05-02 07:12:54,193 UTC - INFO - Pre-fetching advisory guidance with intent policy_lookup: What are the ATM usage charges in metro cities?
+2026-05-02 07:12:54,201 UTC - INFO - Advisory engine retrieval intent: policy_lookup
+2026-05-02 07:12:54,428 UTC - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-05-02 07:12:54,444 UTC - INFO - Retrieved chunk from rag_data/policy.pdf (page 0):
+2026-05-02 07:12:54,445 UTC - INFO - Retrieved chunk from rag_data/policy.pdf (page 0):
+2026-05-02 07:12:54,445 UTC - INFO - Retrieved chunk from rag_data/policy.pdf (page 0):
+2026-05-02 07:12:54,445 UTC - INFO - Retrieved chunk from rag_data/policy.pdf (page 0):
+2026-05-02 07:12:54,445 UTC - INFO - Retrieved chunk from rag_data/policy.pdf (page 1):
+2026-05-02 07:12:56,754 UTC - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 07:12:56,786 UTC - INFO - Advisory engine result: {'raw': AIMessage(content='{"advice":"In metro cities, you can use your own bank\'s ATMs an unlimited number of times for free. For other bank ATMs, the first 3 transactions per month are free; thereafter, there\'s a charge of ₹21 per transaction."}', additional_kwargs={'parsed': FinancialState(advice="In metro cities, you can use your own bank's ATMs an unlimited number of times for free. For other bank ATMs, the first 3 transactions per month are free; thereafter, there's a charge of ₹21 per transaction."), 'refusal': None}, response_metadata={'token_usage': {'completion_tokens': 53, 'prompt_tokens': 1122, 'total_tokens': 1175, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_provider': 'openai', 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_845d726e38', 'id': 'chatcmpl-Dayow89K0ioGPAwydyUpWxqbtbJNS', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None}, id='lc_run--019de788-7ab4-7a02-bde2-bc0f2c6da6ce-0', tool_calls=[], invalid_tool_calls=[], usage_metadata={'input_tokens': 1122, 'output_tokens': 53, 'total_tokens': 1175, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}), 'parsed': FinancialState(advice="In metro cities, you can use your own bank's ATMs an unlimited number of times for free. For other bank ATMs, the first 3 transactions per month are free; thereafter, there's a charge of ₹21 per transaction."), 'parsing_error': None}
+2026-05-02 07:12:57,301 UTC - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 07:12:58,475 UTC - INFO - Agent Final Answer: In metro cities, you can use your own bank's ATMs an unlimited number of times for free. For other bank ATMs, the first 3 transactions per month are free; thereafter, there's a charge of ₹21 per transaction.
+
+_Disclaimer: Educational purposes only._
+2026-05-02 07:12:58,479 UTC - INFO - Async function 'process_query' executed in 5.175398 seconds
+2026-05-02 07:13:43,893 UTC - INFO - Received query: can I visit the bank on a 4th Saturday at 2:00 PM? (Session ID: 8a1e434dbbde4ab0bff7653aabba2e95)
+2026-05-02 07:13:44,985 UTC - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 07:13:45,014 UTC - INFO - Intent classification raw output: content='{"category":"general_faq","confidence":0.95,"feedback":null}' additional_kwargs={'parsed': IntentTag(category='general_faq', confidence=0.95, feedback=None), 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 17, 'prompt_tokens': 595, 'total_tokens': 612, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_provider': 'openai', 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_57a1c65a0e', 'id': 'chatcmpl-DaypkYUwI0SFPFaOG9Q1dzjFXeHt3', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None} id='lc_run--019de789-3c14-7312-a3e2-ee59f01a9dc8-0' tool_calls=[] invalid_tool_calls=[] usage_metadata={'input_tokens': 595, 'output_tokens': 17, 'total_tokens': 612, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}
+2026-05-02 07:13:45,014 UTC - INFO - Intent classification parsed output: <class 'models.IntentTag'>
+2026-05-02 07:13:45,015 UTC - INFO - Async function 'categorize_intent' executed in 1.061140 seconds
+2026-05-02 07:13:45,015 UTC - INFO - Intent classification result: {'intent': 'general_faq', 'confidence_score': 0.95, 'feedback': None}
+2026-05-02 07:13:45,015 UTC - INFO - No feedback found for session 8a1e434dbbde4ab0bff7653aabba2e95
+2026-05-02 07:13:45,015 UTC - INFO - Pre-fetching advisory guidance with intent general_faq: can I visit the bank on a 4th Saturday at 2:00 PM?
+2026-05-02 07:13:45,017 UTC - INFO - Advisory engine retrieval intent: general_faq
+2026-05-02 07:13:45,285 UTC - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-05-02 07:13:45,294 UTC - INFO - Retrieved chunk from rag_data/faqs.pdf (page 0):
+2026-05-02 07:13:45,294 UTC - INFO - Retrieved chunk from rag_data/faqs.pdf (page 0):
+2026-05-02 07:13:45,294 UTC - INFO - Retrieved chunk from rag_data/faqs.pdf (page 0):
+2026-05-02 07:13:46,472 UTC - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 07:13:46,500 UTC - INFO - Advisory engine result: {'raw': AIMessage(content='{"advice":"No, the bank will be closed on the 4th Saturday. Branch operational hours are from 9:30 AM to 1:00 PM on Saturdays, and the bank is closed on the 2nd and 4th Saturdays of the month."}', additional_kwargs={'parsed': FinancialState(advice='No, the bank will be closed on the 4th Saturday. Branch operational hours are from 9:30 AM to 1:00 PM on Saturdays, and the bank is closed on the 2nd and 4th Saturdays of the month.'), 'refusal': None}, response_metadata={'token_usage': {'completion_tokens': 57, 'prompt_tokens': 981, 'total_tokens': 1038, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_provider': 'openai', 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_ec08ae704b', 'id': 'chatcmpl-Daypl4vIca0ZvT3bfJ2XHJqEU6DdF', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None}, id='lc_run--019de789-4155-75a3-ab93-d4f736525404-0', tool_calls=[], invalid_tool_calls=[], usage_metadata={'input_tokens': 981, 'output_tokens': 57, 'total_tokens': 1038, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}), 'parsed': FinancialState(advice='No, the bank will be closed on the 4th Saturday. Branch operational hours are from 9:30 AM to 1:00 PM on Saturdays, and the bank is closed on the 2nd and 4th Saturdays of the month.'), 'parsing_error': None}
+2026-05-02 07:13:47,533 UTC - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 07:13:48,806 UTC - INFO - Agent Final Answer: No, the bank will be closed on the 4th Saturday. Branch operational hours are from 9:30 AM to 1:00 PM on Saturdays, and the bank is closed on the 2nd and 4th Saturdays of the month.
+
+_Disclaimer: Educational purposes only._
+2026-05-02 07:13:48,810 UTC - INFO - Async function 'process_query' executed in 4.862429 seconds
+2026-05-02 07:14:00,057 UTC - INFO - Qdrant client closed successfully.
