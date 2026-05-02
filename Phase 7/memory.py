@@ -21,7 +21,7 @@ def load_history(session_id: str):
 def save_history(session_id: str, messages: list):
     file_path = f"history_{session_id}.json"
     dict_history = messages_to_dict(messages)
-    with open(file_path, "w") as f:
+    with open(file_path, "w+") as f:
         json.dump(dict_history, f)
 
 def check_history_bloat(session_id: str, limit_kb: int = 100):
